@@ -1,3 +1,20 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "TheVue"
+theme = "hugo-theme-learn"
+themesdir = "themes/"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  description = "Welcome to TheVue"
+  author = "Brandon Vue"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
