@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to TheVue on TheVue</title>
+    <link>https://b-vwj.github.io/TheVue/</link>
+    <description>Recent content in Welcome to TheVue on TheVue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://b-vwj.github.io/TheVue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://b-vwj.github.io/TheVue/_footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/_footer/</guid>
+      <description>Brandon Vue © 2020</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://b-vwj.github.io/TheVue/_header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/_header/</guid>
+      <description>TheVue</description>
+    </item>
+    
+  </channel>
+</rss>
