@@ -1,17 +1,31 @@
 [
 {
-	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-and-trig/",
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/",
+	"title": "American Government and Politics",
+	"tags": [],
+	"description": "",
+	"content": " American Government and Politics Notes: "
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/notes/chapter1/",
+	"title": "American Government and Politics",
+	"tags": [],
+	"description": "Notes for Ch. 1 in here.",
+	"content": " Notes: The Principles of Politics  All political behavior has a purpose (Rationality Principle); \u0026ldquo;Everyone has a goal\u0026rdquo;. Institutions structure politics (Institution Principle); All politics is collective actions (Collective-action Principle); Political outcomes are the product of individual preferences \u0026amp; institutional procedures (Policy Principle); How we got here matters! (History Principle);  Sentences to remember  \u0026ldquo;Game Theory\u0026rdquo; (Involves Math, Econ, and Pols) \u0026ldquo;Change politics means changing institutions!\u0026rdquo; \u0026ldquo;Interests, Interactions, Institutions!\u0026rdquo; (my favorite one) \u0026ldquo;Politics is the process; Policies are the answer.\u0026rdquo; Political Science - \u0026ldquo;Take something broad and narrow it down.\u0026rdquo; \u0026ldquo;Constitutional Crisis\u0026rdquo; \u0026ldquo;Majority Rule is a type of institution!\u0026rdquo;  Book Sections: Institutional Design: The role of rules and procedures in politics.\nInstitutional Durability: \u0026ldquo;Institutions tend to be stable and resist change\u0026rdquo; because\u0026hellip; \u0026ldquo;Authority is placed on the institution not the individual\u0026rdquo;.\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/",
 	"title": "College Algebra and Pre-calculus",
 	"tags": [],
 	"description": "",
 	"content": " Algebra and Pre-calculus Notes: "
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-and-trig/notes/chapter3_notes/",
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/polynomial_funcs_and_their_graphs/",
 	"title": "College Algebra and Pre-calculus Notes",
 	"tags": [],
-	"description": "College Algebra and Pre-calculus Notes",
-	"content": " Notes: "
+	"description": "Polynomial Functions and Their Graphs",
+	"content": " Notes: Terms Polynomial function(s): a polynomial function of degree n is a function of the form\u0026hellip;  P(x) = a(n)x(n) + a(n-1)x(n-1) + \u0026hellip; + a1x + a0  where n is a nonnegative integer and an =/= 0\nLeading Term: of a polynomial is the term with the highest exponent.\nZeros of a polynomial: P(x) are numbers c, such that P\u0026copy; = 0 - \u0026ldquo;x coordinates of the x-intercepts.\u0026rdquo;\nThe end behavior of a polynomial: For the graph of any polynomial function, the ends will either point up or down. For example:\nAs x -\u0026gt; ∞; f(x) (will either) -\u0026gt; ∞ OR -∞ As x -\u0026gt; -∞; f(x) (will either) -\u0026gt; ∞ OR -∞  Odd Degree \u0026amp; Positive Leading Coefficient: Left down \u0026amp; Right up.\nEven Degree \u0026amp; Positive Leading Coefficient: Both ends up.\nOdd Degree \u0026amp; Negative Leading Coefficient: Left up \u0026amp; Right Down.\nEven Degree \u0026amp; Negative Leading Coefficient: Both ends down.\nOther Things To Remember:  The numbers a0, a1, a2, \u0026hellip;, a(n)  are called coefficients of the Polynomial.\n a0 is the constant coefficient or constant term.\n The number a(n), the coefficient of the highest power, is the leading coefficient, and the term a(x)x(n) is the leading term.\n  Names of certain degrees  If a polynomial consists of just a single term, then it\u0026rsquo;s called a monomial. For example:  P(x) = x3 and Q(x) = -6x5 are monomials.\n f(x) = a(1)x +/- a0 is considered a \u0026ldquo;Linear\u0026rdquo; equation.\n f(x) = a(2)x2 +/- a(1)x +/- a0 is considered a \u0026ldquo;Quadratic\u0026rdquo; equation.\n f(x) = a(3)x3 + a(2)x2 + a(1)x + a0 is considered a \u0026ldquo;Cubic\u0026rdquo; equation.\n  Exponents affect the graph! Even exponent: - Parabola - Bigger exponent means flatter base (near zero)(?) Odd exponent: - Zig-Zag(?) - Bigger exponent means flatter base (near zero)(?)\n"
 },
 {
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/english/",
@@ -56,11 +70,25 @@
 	"content": " TheVue Welcome to TheVue!\n"
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-and-trig/homework/chapter3_hw/",
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter3_hw/",
 	"title": "College Algebra and Pre-calculus Homework",
 	"tags": [],
 	"description": "Homework in here...",
 	"content": "Homework for Chapter 3\nSection 3.1 Read pages 250–261 On pages 261-262 work problems 13, 17, 21, 23, 25, 29, 31, 4\nSection 3.2 Read pages 265–270 On pages 270–271 work problems 1, 7, 9, 13, 17, 19, 23, 25, 27, 29, 31, 33, 37, 39, 41, 43, 47, 53, 57, 63, 65\nSection 3.3 Read pages 272–279 On pages 279–280 work problems 1, 5, 7, 9, 11, 13, 17, 21, 25, 33, 37, 39, 41, 45, 49, 53, 57\nSection 3.4 Read pages 285–289 On pages 289–290 work problems 13, 15, 17, 21, 25, 29, 33, 37, 41, 57, 61, 65, 69\nSection 3.5 Read pages 291–298 On pages 298–299 work problems 13, 15, 21, 31, 35, 37, 39, 43, 45, 47, 49, 53, 55\nSection 3.6 Read pages 299–312 On page 313 work problems 5, 9, 15, 17, 19, 21, 33, 41, 45, 49, 57, 61\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/glossary/",
+	"title": "Glossary",
+	"tags": [],
+	"description": "Glossary for terms",
+	"content": " Preferences1 - Individuals\u0026rsquo; choices, reflecting economic situation(s), religious values, ethnic identity, or other valued interests.\n Bargaining (process) - A form of negotiation in which two or more parties who disagree propose exchanges and concessions to find a course of acceptable collective action.\n Compromise (outcome) -\n Politics -\n Social Choices \u0026amp; Conflict -\n Authority (a right to decide!) - \u0026ldquo;Recognized right to make a particular decision.\u0026rdquo;\n Power (the ability to decide) - \u0026ldquo;Actual influence over actions.\u0026rdquo;\n  "
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/glossary/extras/",
+	"title": "Glossary",
+	"tags": [],
+	"description": "Glossary for terms",
+	"content": " Preferences is the same word from the book as values and interests. \u0026ldquo;Interests = Preferences = Values\u0026rdquo;.   "
 },
 {
 	"uri": "https://b-vwj.github.io/TheVue/_footer/",
