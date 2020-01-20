@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/TheVue/images/favicon.png" type="image/png">
 
-    <title>Science Notes :: TheVue</title>
+    <title>Spring Boot Documentation :: TheVue</title>
 
     
     <link href="/TheVue/css/nucleus.css?1579545886" rel="stylesheet">
@@ -33,7 +33,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/TheVue/school-notes/science/">
+  <body class="" data-url="/TheVue/programming/spring-boot/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -92,7 +92,7 @@
   
     
     <li data-nav-id="/TheVue/programming/" title="Programming Notes" class="dd-item 
-        
+        parent
         
         
         ">
@@ -121,8 +121,8 @@
   
     
     <li data-nav-id="/TheVue/programming/spring-boot/" title="Spring Boot Documentation" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/TheVue/programming/spring-boot/">
@@ -183,7 +183,7 @@
   
     
     <li data-nav-id="/TheVue/school-notes/" title="School Notes" class="dd-item 
-        parent
+        
         
         
         ">
@@ -583,8 +583,8 @@
   
     
     <li data-nav-id="/TheVue/school-notes/science/" title="Science Notes" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/TheVue/school-notes/science/">
@@ -649,7 +649,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/School-Notes/Science/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/Programming/Spring%20Boot/_index.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -680,7 +680,7 @@
             
           
           
-            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/school-notes/'>School Notes</a> > Science Notes
+            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/programming/'>Programming Notes</a> > Spring Boot Documentation
           
          
           
@@ -697,7 +697,18 @@
 <ul>
 <li>
 <ul>
-<li><a href="#la-science">La Science</a></li>
+<li><a href="#spring-boot-documentation"><strong>Spring Boot Documentation</strong></a>
+<ul>
+<li><a href="#what-is-spring-boot">What is <strong><em>Spring Boot</em></strong>?</a>
+<ul>
+<li><a href="#key-take-aways">Key Take Aways&hellip;</a></li>
+</ul></li>
+<li><a href="#what-is-spring">What is <strong><em>Spring</em></strong></a>
+<ul>
+<li><a href="#some-problems-with-spring">Some Problems with <strong><em>Spring</em></strong></a></li>
+</ul></li>
+<li><a href="#enter-spring-boot">Enter <strong><em>Spring Boot</em></strong></a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -716,7 +727,7 @@
           
             <h1>
               
-              Science Notes
+              Spring Boot Documentation
             </h1>
           
 
@@ -727,9 +738,74 @@
 
 	
 
-<h2 id="la-science">La Science</h2>
+<h2 id="spring-boot-documentation"><strong>Spring Boot Documentation</strong></h2>
 
-<p>Welcome to TheVue!</p>
+<hr />
+
+<h3 id="what-is-spring-boot">What is <strong><em>Spring Boot</em></strong>?</h3>
+
+<p>Spring Boot is the &ldquo;Spring framework&rdquo; application that is coupled with &ldquo;Bootstrap&rdquo;. Allowing the user to Bootstrap the Spring Application.</p>
+
+<p>Official definition: &ldquo;Spring Boot makes it easy to create <strong><em>stand-alone, production-grade Spring based Applications that you can &lsquo;just run</em></strong>&rsquo;.&rdquo;</p>
+
+<h4 id="key-take-aways">Key Take Aways&hellip;</h4>
+
+<ul>
+<li>Creating Spring Based Applications (from Spring Boot).</li>
+<li>Stand-Alone (Runs on its own).</li>
+<li>Production grade (deployable to prod).</li>
+<li>&lsquo;just runnable&rsquo;.</li>
+<li>Easy way to get things working!</li>
+</ul>
+
+<h3 id="what-is-spring">What is <strong><em>Spring</em></strong></h3>
+
+<ul>
+<li><strong><em>2006 definition:</em></strong>
+
+<ul>
+<li>Dependency Injections</li>
+</ul></li>
+<li><strong><em>Up-to-date definition:</em></strong>
+
+<ul>
+<li>Application Framework (&ldquo;Lets you build Enterprise Java Applications&rdquo;)</li>
+<li>Enterprise Java Applications(EJA) have many similarities</li>
+<li>Spring provides a template/framework to build those EJA</li>
+<li>Programming and Configuration Model</li>
+<li>Infrastructure Support</li>
+</ul></li>
+</ul>
+
+<h4 id="some-problems-with-spring">Some Problems with <strong><em>Spring</em></strong></h4>
+
+<ul>
+<li>It&rsquo;s a <strong>HUGE</strong> framework
+
+<ul>
+<li>So many ways to build EJAs; Spring has tried to support it all. (How to get started&hellip;?)</li>
+</ul></li>
+<li>Multiple Setup Steps</li>
+<li>Multiple Configuration Steps</li>
+<li>Multiple Build and Deploy Steps (lots of capability and flexibility, so&hellip; no main pathways are set.)</li>
+</ul>
+
+<hr />
+
+<h3 id="enter-spring-boot">Enter <strong><em>Spring Boot</em></strong></h3>
+
+<ul>
+<li>Opinionated (start &ldquo;here&rdquo;, then move on if needed)</li>
+<li>Convention Over Configuration</li>
+<li>Stand Alone Application (SAA; Not Side, Angle, Angle lol)</li>
+<li>Production Ready!</li>
+</ul>
+
+<hr />
+
+<p>Tools Used:
+- Spring Tool Suite(STS) (looks like eclipse).
+- <strong>At least</strong> Java 8 SDK.</p>
 
 
 
@@ -770,8 +846,155 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -823,155 +1046,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                 
                 
 
@@ -1091,7 +1165,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -1116,10 +1189,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/" title=""> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/TheVue/programming/" title="Programming Notes"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/TheVue/school-notes/communications/" title="Communication Notes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/TheVue/programming/spring-boot/maven/" title="Spring Boot Documentation" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

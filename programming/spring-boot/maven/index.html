@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/TheVue/images/favicon.png" type="image/png">
 
-    <title>Science Notes :: TheVue</title>
+    <title>Spring Boot Documentation :: TheVue</title>
 
     
     <link href="/TheVue/css/nucleus.css?1579545886" rel="stylesheet">
@@ -33,7 +33,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/TheVue/school-notes/science/">
+  <body class="" data-url="/TheVue/programming/spring-boot/maven/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -92,7 +92,7 @@
   
     
     <li data-nav-id="/TheVue/programming/" title="Programming Notes" class="dd-item 
-        
+        parent
         
         
         ">
@@ -121,7 +121,7 @@
   
     
     <li data-nav-id="/TheVue/programming/spring-boot/" title="Spring Boot Documentation" class="dd-item 
-        
+        parent
         
         
         ">
@@ -147,7 +147,7 @@
  
   
     
-      <li data-nav-id="/TheVue/programming/spring-boot/maven/" title="Spring Boot Documentation" class="dd-item ">
+      <li data-nav-id="/TheVue/programming/spring-boot/maven/" title="Spring Boot Documentation" class="dd-item active">
         <a href="/TheVue/programming/spring-boot/maven/">
         Maven
         <i class="fas fa-check read-icon"></i>
@@ -183,7 +183,7 @@
   
     
     <li data-nav-id="/TheVue/school-notes/" title="School Notes" class="dd-item 
-        parent
+        
         
         
         ">
@@ -583,8 +583,8 @@
   
     
     <li data-nav-id="/TheVue/school-notes/science/" title="Science Notes" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/TheVue/school-notes/science/">
@@ -649,7 +649,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/School-Notes/Science/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/Programming/Spring%20Boot/maven.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -680,7 +680,13 @@
             
           
           
-            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/school-notes/'>School Notes</a> > Science Notes
+            
+            
+          
+          
+            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/programming/'>Programming Notes</a> > <a href='/TheVue/programming/spring-boot/'>Spring Boot Documentation</a> > Spring Boot Documentation
+          
+         
           
          
           
@@ -697,7 +703,11 @@
 <ul>
 <li>
 <ul>
-<li><a href="#la-science">La Science</a></li>
+<li><a href="#maven">Maven</a>
+<ul>
+<li><a href="#what-is-maven">What is Maven?</a></li>
+<li><a href="#extras">Extras</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -716,7 +726,7 @@
           
             <h1>
               
-              Science Notes
+              Spring Boot Documentation
             </h1>
           
 
@@ -725,19 +735,47 @@
 
 
 
-	
 
-<h2 id="la-science">La Science</h2>
+<h2 id="maven">Maven</h2>
 
-<p>Welcome to TheVue!</p>
+<p>&ldquo;When building our Spring Application, we need to manage our dependencies.&rdquo;</p>
 
+<p>&ldquo;We need to import the &lsquo;Jar&rsquo;s that is required for Spring Applications to work.&rdquo;</p>
 
+<ul>
+<li>Usually in Java, you&rsquo;d take the <strong>JARs</strong> and add it to the <strong>CLASSPATH</strong>
 
+<ul>
+<li>We won&rsquo;t do this. We&rsquo;ll use <strong><em>Maven</em></strong> instead!</li>
+</ul></li>
+</ul>
+
+<h3 id="what-is-maven">What is Maven?</h3>
+
+<p>Maven: Build Independency Management Tool</p>
+
+<p>Lets you declare all the dependencies you want in a single file.
+  - No more needing to download the JARs and adding it into the CLASSPATH.
+  - Rather, you mention what JARs you need into the file <code>pom.xml</code>.
+    - <code>pom.xml</code> contains a list of all your dependencies that Maven needs to know/to get
+    - After running a Maven cmd, Maven will check what dependencies are needed for the app, and will get the JARs from a Repository.</p>
+
+<p>In short:
+1. When needing dependencies, we create the <code>pom.xml</code> file.
+1. Add a list of dependencies onto the <code>pom.xml</code> file.
+1. Then run a Maven cmd.</p>
+
+<h3 id="extras">Extras</h3>
+
+<p>Maven also lets you create a starter project. (no need to create this individual files yourself)
+- Comes with an &lsquo;Archtype&rsquo; (basically a template) which lets you start a simple project.
+  - In other words, Maven basically creates files, including the <code>pom.xml</code> file for you to begin listing dependencies you need.</p>
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -770,8 +808,156 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                         
                         
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -823,155 +1009,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                 
                 
 
@@ -1091,7 +1128,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -1116,10 +1152,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/" title=""> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/TheVue/programming/spring-boot/" title="Spring Boot Documentation"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/TheVue/school-notes/communications/" title="Communication Notes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/TheVue/school-notes/" title="School Notes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1149,3 +1185,4 @@
 
   </body>
 </html>
+

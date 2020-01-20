@@ -19,7 +19,15 @@
   </url>
   
   <url>
+    <loc>https://b-vwj.github.io/TheVue/school-notes/communications/</loc>
+  </url>
+  
+  <url>
     <loc>https://b-vwj.github.io/TheVue/school-notes/english/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/school-notes/communications/fundamentals-of-public-speaking/</loc>
   </url>
   
   <url>
@@ -31,11 +39,23 @@
   </url>
   
   <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/</loc>
+  </url>
+  
+  <url>
     <loc>https://b-vwj.github.io/TheVue/school-notes/</loc>
   </url>
   
   <url>
     <loc>https://b-vwj.github.io/TheVue/school-notes/science/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/spring-boot/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/spring-boot/maven/</loc>
   </url>
   
   <url>
@@ -61,6 +81,11 @@
   
   <url>
     <loc>https://b-vwj.github.io/TheVue/_header/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/</loc>
     <priority>0</priority>
   </url>
   

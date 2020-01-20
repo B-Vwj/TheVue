@@ -31,6 +31,18 @@ Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldqu
     </item>
     
     <item>
+      <title>Spring Boot Documentation</title>
+      <link>https://b-vwj.github.io/TheVue/programming/spring-boot/maven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/spring-boot/maven/</guid>
+      <description>Maven &amp;ldquo;When building our Spring Application, we need to manage our dependencies.&amp;rdquo;
+&amp;ldquo;We need to import the &amp;lsquo;Jar&amp;rsquo;s that is required for Spring Applications to work.&amp;rdquo;
+ Usually in Java, you&amp;rsquo;d take the JARs and add it to the CLASSPATH  We won&amp;rsquo;t do this. We&amp;rsquo;ll use Maven instead!   What is Maven? Maven: Build Independency Management Tool
+Lets you declare all the dependencies you want in a single file.</description>
+    </item>
+    
+    <item>
       <title>College Algebra and Pre-calculus Homework</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter3_hw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,7 +60,7 @@ Section 3.3 Read pages 272–279 On pages 279–280 work problems 1, 5, 7, 9, 11
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/glossary/extras/</guid>
-      <description> Preferences is the same word from the book as values and interests. &amp;ldquo;Interests = Preferences = Values&amp;rdquo;. 1.  </description>
+      <description> Preferences is the same word from the book as values and interests. &amp;ldquo;Interests = Preferences = Values&amp;rdquo;.   </description>
     </item>
     
     <item>
@@ -67,6 +79,25 @@ Section 3.3 Read pages 272–279 On pages 279–280 work problems 1, 5, 7, 9, 11
       
       <guid>https://b-vwj.github.io/TheVue/_header/</guid>
       <description>TheVue</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/</guid>
+      <description>Tentative Schedule for Math 1180: Monday, January 13 - Course Information and Section 3.1
+Wednesday, January 15 - Section 3.2
+Friday, January 17 - Section 3.3
+Monday, January 20 - Holiday—No Class
+Wednesday, January 22 - Section3.4
+Friday, January 24 - Section3.5
+Monday, January 27 - Section 3.6
+Wednesday, January 29 - Review Day
+Friday, January 31 - Test 1 over chapter 3
+Monday, February 3 - Section4.1
+Wednesday, February 5 - Section 4.</description>
     </item>
     
   </channel>

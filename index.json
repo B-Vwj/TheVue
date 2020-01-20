@@ -28,11 +28,25 @@
 	"content": " Notes: Terms Polynomial function(s): a polynomial function of degree n is a function of the form\u0026hellip;  P(x) = a(n)x(n) + a(n-1)x(n-1) + \u0026hellip; + a1x + a0  where n is a nonnegative integer and an =/= 0\nLeading Term: of a polynomial is the term with the highest exponent.\nZeros of a polynomial: P(x) are numbers c, such that P\u0026copy; = 0 - \u0026ldquo;x coordinates of the x-intercepts.\u0026rdquo;\nThe end behavior of a polynomial: For the graph of any polynomial function, the ends will either point up or down. For example:\nAs x -\u0026gt; ∞; f(x) (will either) -\u0026gt; ∞ OR -∞ As x -\u0026gt; -∞; f(x) (will either) -\u0026gt; ∞ OR -∞  Odd Degree \u0026amp; Positive Leading Coefficient: Left down \u0026amp; Right up.\nEven Degree \u0026amp; Positive Leading Coefficient: Both ends up.\nOdd Degree \u0026amp; Negative Leading Coefficient: Left up \u0026amp; Right Down.\nEven Degree \u0026amp; Negative Leading Coefficient: Both ends down.\nOther Things To Remember:  The numbers a0, a1, a2, \u0026hellip;, a(n)  are called coefficients of the Polynomial.\n a0 is the constant coefficient or constant term.\n The number a(n), the coefficient of the highest power, is the leading coefficient, and the term a(x)x(n) is the leading term.\n  Names of certain degrees  If a polynomial consists of just a single term, then it\u0026rsquo;s called a monomial. For example:  P(x) = x3 and Q(x) = -6x5 are monomials.\n f(x) = a(1)x +/- a0 is considered a \u0026ldquo;Linear\u0026rdquo; equation.\n f(x) = a(2)x2 +/- a(1)x +/- a0 is considered a \u0026ldquo;Quadratic\u0026rdquo; equation.\n f(x) = a(3)x3 + a(2)x2 + a(1)x + a0 is considered a \u0026ldquo;Cubic\u0026rdquo; equation.\n  Exponents affect the graph! Even exponent: - Parabola - Bigger exponent means flatter base (near zero)(?) Odd exponent: - Zig-Zag(?) - Bigger exponent means flatter base (near zero)(?)\n"
 },
 {
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/communications/",
+	"title": "Communication Notes",
+	"tags": [],
+	"description": "",
+	"content": " La Communication! Welcome to TheVue!\n"
+},
+{
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/english/",
 	"title": "English Notes",
 	"tags": [],
 	"description": "",
 	"content": " L\u0026rsquo;Anglais Welcome to TheVue!\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/communications/fundamentals-of-public-speaking/",
+	"title": "Fundamentals of Public Speaking",
+	"tags": [],
+	"description": "",
+	"content": " Fundamentals of Public Speaking Notes: "
 },
 {
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/government/",
@@ -49,6 +63,13 @@
 	"content": " Les Mathematiques Welcome to TheVue!\n"
 },
 {
+	"uri": "https://b-vwj.github.io/TheVue/programming/",
+	"title": "Programming Notes",
+	"tags": [],
+	"description": "",
+	"content": " Programming Notes Programming Notes will most likely be tossed in here\u0026hellip;\n"
+},
+{
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/",
 	"title": "School Notes",
 	"tags": [],
@@ -61,6 +82,20 @@
 	"tags": [],
 	"description": "",
 	"content": " La Science Welcome to TheVue!\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/programming/spring-boot/",
+	"title": "Spring Boot Documentation",
+	"tags": [],
+	"description": "",
+	"content": " Spring Boot Documentation What is Spring Boot? Spring Boot is the \u0026ldquo;Spring framework\u0026rdquo; application that is coupled with \u0026ldquo;Bootstrap\u0026rdquo;. Allowing the user to Bootstrap the Spring Application.\nOfficial definition: \u0026ldquo;Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can \u0026lsquo;just run\u0026rsquo;.\u0026rdquo;\nKey Take Aways\u0026hellip;  Creating Spring Based Applications (from Spring Boot). Stand-Alone (Runs on its own). Production grade (deployable to prod). \u0026lsquo;just runnable\u0026rsquo;. Easy way to get things working!  What is Spring  2006 definition:  Dependency Injections  Up-to-date definition:  Application Framework (\u0026ldquo;Lets you build Enterprise Java Applications\u0026rdquo;) Enterprise Java Applications(EJA) have many similarities Spring provides a template/framework to build those EJA Programming and Configuration Model Infrastructure Support   Some Problems with Spring  It\u0026rsquo;s a HUGE framework  So many ways to build EJAs; Spring has tried to support it all. (How to get started\u0026hellip;?)  Multiple Setup Steps Multiple Configuration Steps Multiple Build and Deploy Steps (lots of capability and flexibility, so\u0026hellip; no main pathways are set.)  Enter Spring Boot  Opinionated (start \u0026ldquo;here\u0026rdquo;, then move on if needed) Convention Over Configuration Stand Alone Application (SAA; Not Side, Angle, Angle lol) Production Ready!  Tools Used: - Spring Tool Suite(STS) (looks like eclipse). - At least Java 8 SDK.\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/programming/spring-boot/maven/",
+	"title": "Spring Boot Documentation",
+	"tags": [],
+	"description": "",
+	"content": " Maven \u0026ldquo;When building our Spring Application, we need to manage our dependencies.\u0026rdquo;\n\u0026ldquo;We need to import the \u0026lsquo;Jar\u0026rsquo;s that is required for Spring Applications to work.\u0026rdquo;\n Usually in Java, you\u0026rsquo;d take the JARs and add it to the CLASSPATH  We won\u0026rsquo;t do this. We\u0026rsquo;ll use Maven instead!   What is Maven? Maven: Build Independency Management Tool\nLets you declare all the dependencies you want in a single file. - No more needing to download the JARs and adding it into the CLASSPATH. - Rather, you mention what JARs you need into the file pom.xml. - pom.xml contains a list of all your dependencies that Maven needs to know/to get - After running a Maven cmd, Maven will check what dependencies are needed for the app, and will get the JARs from a Repository.\nIn short: 1. When needing dependencies, we create the pom.xml file. 1. Add a list of dependencies onto the pom.xml file. 1. Then run a Maven cmd.\nExtras Maven also lets you create a starter project. (no need to create this individual files yourself) - Comes with an \u0026lsquo;Archtype\u0026rsquo; (basically a template) which lets you start a simple project. - In other words, Maven basically creates files, including the pom.xml file for you to begin listing dependencies you need.\n"
 },
 {
 	"uri": "https://b-vwj.github.io/TheVue/",
@@ -81,7 +116,7 @@
 	"title": "Extra Information",
 	"tags": [],
 	"description": "Glossary for terms",
-	"content": " Preferences is the same word from the book as values and interests. \u0026ldquo;Interests = Preferences = Values\u0026rdquo;. 1.  "
+	"content": " Preferences is the same word from the book as values and interests. \u0026ldquo;Interests = Preferences = Values\u0026rdquo;.   "
 },
 {
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/glossary/",
@@ -103,6 +138,13 @@
 	"tags": [],
 	"description": "",
 	"content": "TheVue\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Tentative Schedule for Math 1180: Monday, January 13 - Course Information and Section 3.1\nWednesday, January 15 - Section 3.2\nFriday, January 17 - Section 3.3\nMonday, January 20 - Holiday—No Class\nWednesday, January 22 - Section3.4\nFriday, January 24 - Section3.5\nMonday, January 27 - Section 3.6\nWednesday, January 29 - Review Day\nFriday, January 31 - Test 1 over chapter 3\nMonday, February 3 - Section4.1\nWednesday, February 5 - Section 4.2\nFriday, February 7 - Section 4.3\nMonday, February 10 - Section 4.4\nWednesday, February 12 - Section 4.5\nFriday, February 14 - Review Day\nMonday, February 17 - Holiday—No Class\nWednesday, February 19 - Test 2 over chapter 4\nFriday, February 21 - Section 5.1\nMonday, February 24 - Section 5.2\nWednesday, February 26 - Section 5.3\nFriday, February 28 - Section 5.4\nMonday, March 2 - Section6.1\nWednesday, March 4 - Section 6.2\nFriday, March 6 - Section 6.3\nMonday, March 9 - Spring Break\nWednesday, March 11 - Spring Break\nFriday, March 13 - Spring Break\nMonday, March 16 - Test3 over chapter 5 and sections 6.1, 6.2, and 6.3\nWednesday, March 18 - Section 6.4\nFriday, March 20 - Section 6.5\nMonday, March 23 - Section 7.1\nWednesday, March 25 - Section7.2\nFriday, March 27 - Section 7.3\nMonday, March 30 - Section 7.4\nWednesday, April 1 - Section 7.5\nFriday, April 3 - Test 4over sections 6.4, 6.5, and chapter 7\nMonday, April 6 - Section 10.1\nWednesday, April 8 - Section 10.2\nFriday, April 10 - No classes at NHCC this day\nMonday,April 13 - Section 10.3\nWednesday, April 15 - Section 10.4\nFriday, April 17 - Section 11.1\nMonday, April 20 - Section11.2\nWednesday, April 22 - Section 11.3\nFriday, April 24 - Section 11.5\nMonday, April 27 - Section 11.6\nWednesday, April 29 - Review Day\nFriday, May 1 - Test 5 over chapters 10 and 11\nMonday, May 4 - Review for the final exam\nFriday, May 8 - Final Exam10:15 –12:15\n"
 },
 {
 	"uri": "https://b-vwj.github.io/TheVue/categories/",
