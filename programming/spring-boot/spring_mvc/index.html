@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/TheVue/images/favicon.png" type="image/png">
 
-    <title>School Notes :: TheVue</title>
+    <title>Spring Boot Documentation :: TheVue</title>
 
     
     <link href="/TheVue/css/nucleus.css?1579751411" rel="stylesheet">
@@ -33,7 +33,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/TheVue/school-notes/">
+  <body class="" data-url="/TheVue/programming/spring-boot/spring_mvc/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -92,7 +92,7 @@
   
     
     <li data-nav-id="/TheVue/programming/" title="Programming Notes" class="dd-item 
-        
+        parent
         
         
         ">
@@ -121,7 +121,7 @@
   
     
     <li data-nav-id="/TheVue/programming/spring-boot/" title="Spring Boot Documentation" class="dd-item 
-        
+        parent
         
         
         ">
@@ -147,7 +147,7 @@
  
   
     
-      <li data-nav-id="/TheVue/programming/spring-boot/spring_mvc/" title="Spring Boot Documentation" class="dd-item ">
+      <li data-nav-id="/TheVue/programming/spring-boot/spring_mvc/" title="Spring Boot Documentation" class="dd-item active">
         <a href="/TheVue/programming/spring-boot/spring_mvc/">
         Spring MVC
         <i class="fas fa-check read-icon"></i>
@@ -202,8 +202,8 @@
   
     
     <li data-nav-id="/TheVue/school-notes/" title="School Notes" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/TheVue/school-notes/">
@@ -742,7 +742,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/School-Notes/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/Programming/Spring%20Boot/spring_mvc.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -769,7 +769,19 @@
             
           
           
-            <a href='/TheVue/'>Welcome to TheVue</a> > School Notes
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/programming/'>Programming Notes</a> > <a href='/TheVue/programming/spring-boot/'>Spring Boot Documentation</a> > Spring Boot Documentation
+          
+         
+          
+         
           
          
           
@@ -780,7 +792,17 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#spring-boot-documentation"><strong>Spring Boot Documentation</strong></a></li>
+<li><a href="#things-to-know">Things to know</a></li>
+<li><a href="#terms-of-options">Terms (of options)</a></li>
+<li><a href="#web-controllers">Web Controllers</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -796,7 +818,7 @@
           
             <h1>
               
-              School Notes
+              Spring Boot Documentation
             </h1>
           
 
@@ -805,14 +827,58 @@
 
 
 
-	
 
+<h2 id="spring-boot-documentation"><strong>Spring Boot Documentation</strong></h2>
 
+<hr />
+
+<h2 id="things-to-know">Things to know</h2>
+
+<ul>
+<li><p>Spring Initializr: Fast way to pull in dependencies you need for an application and does most of the work for you.</p>
+
+<ul>
+<li>Example dependencies:</li>
+<li>Spring Web:</li>
+<li>Thymeleaf</li>
+<li>Spring Boot DevTools</li>
+</ul></li>
+
+<li><p>Maven comes with a <code>pom.xml</code> file</p></li>
+
+<li><p>Gradle comes with the <code>build.gradle</code> file</p></li>
+
+<li><p>Language is chosen with an &lsquo;id&rsquo; (i.e. &ldquo;<code>id 'java'</code>&rdquo;) (done under plugins)</p></li>
+
+<li><p>Spring framework &amp; dependency management are also under plugins.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="terms-of-options">Terms (of options)</h2>
+
+<ul>
+<li>Group: Project Coordinates; <code>id</code> of the project&rsquo;s group; Infers Root package name;</li>
+<li>Artifact: Project Coordinates; <code>id</code> of the Artifact; Infers name of project;</li>
+<li>Name: Display Name of Project; Determines name of Spring Boot Application;</li>
+<li>Description: Description of project;</li>
+<li>Package name: Root package of the project; Default is [<code>Group</code>]() attribute;</li>
+<li>Packaging: Project Packaging; Either Java Archive (<strong>JAR</strong>) or Web Application Archive (<strong>WAR</strong>);</li>
+<li>Java Version: Which version of Java to use;</li>
+<li>Language: Which programming language to use;</li>
+</ul>
+
+<hr />
+
+<h2 id="web-controllers">Web Controllers</h2>
+
+<p>HTTP(S) requests are handled by a controller.</p>
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -845,8 +911,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -863,6 +927,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -876,6 +941,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -883,6 +949,31 @@
                     
                     
 
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
                     
             
         
@@ -897,29 +988,6 @@
 
                     
                     
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
                         
                     
                     
@@ -929,9 +997,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1254,10 +1319,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/TheVue/programming/spring-boot/maven/" title="Spring Boot Documentation"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/TheVue/programming/spring-boot/" title="Spring Boot Documentation"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/TheVue/school-notes/communications/" title="Communication Notes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/TheVue/programming/spring-boot/maven/" title="Spring Boot Documentation" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1267,19 +1332,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/TheVue/js/clipboard.min.js?1579751426"></script>
-    <script src="/TheVue/js/perfect-scrollbar.min.js?1579751426"></script>
-    <script src="/TheVue/js/perfect-scrollbar.jquery.min.js?1579751426"></script>
-    <script src="/TheVue/js/jquery.sticky.js?1579751426"></script>
-    <script src="/TheVue/js/featherlight.min.js?1579751426"></script>
-    <script src="/TheVue/js/highlight.pack.js?1579751426"></script>
+    <script src="/TheVue/js/clipboard.min.js?1579751411"></script>
+    <script src="/TheVue/js/perfect-scrollbar.min.js?1579751411"></script>
+    <script src="/TheVue/js/perfect-scrollbar.jquery.min.js?1579751411"></script>
+    <script src="/TheVue/js/jquery.sticky.js?1579751411"></script>
+    <script src="/TheVue/js/featherlight.min.js?1579751411"></script>
+    <script src="/TheVue/js/highlight.pack.js?1579751411"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/TheVue/js/modernizr.custom-3.6.0.js?1579751426"></script>
-    <script src="/TheVue/js/learn.js?1579751426"></script>
-    <script src="/TheVue/js/hugo-learn.js?1579751426"></script>
+    <script src="/TheVue/js/modernizr.custom-3.6.0.js?1579751411"></script>
+    <script src="/TheVue/js/learn.js?1579751411"></script>
+    <script src="/TheVue/js/hugo-learn.js?1579751411"></script>
 
-    <link href="/TheVue/mermaid/mermaid.css?1579751426" rel="stylesheet" />
-    <script src="/TheVue/mermaid/mermaid.js?1579751426"></script>
+    <link href="/TheVue/mermaid/mermaid.css?1579751411" rel="stylesheet" />
+    <script src="/TheVue/mermaid/mermaid.js?1579751411"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
@@ -1287,3 +1352,4 @@
 
   </body>
 </html>
+
