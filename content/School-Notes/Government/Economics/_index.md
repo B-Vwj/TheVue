@@ -1,9 +1,12 @@
 +++
-title = "Communication Notes"
-menutitle = "Communication"
+title = "Macro-Economics"
+menutitle = "Macro-Economics"
 description = ""
 weight = 1
 +++
 
-## La Communication!
+## Le Macro economique
+
+## Notes:
+
 {{% children depth="12" description="true" sort="Weight" showhidden="false" %}}

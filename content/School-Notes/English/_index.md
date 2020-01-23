@@ -6,5 +6,4 @@ weight = 1
 +++
 
 ## L'Anglais
-
-Welcome to TheVue!
+{{% children depth="12" description="true" sort="Weight" showhidden="false" %}}

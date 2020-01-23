@@ -8,3 +8,5 @@ weight = 1
 ## Algebra and Pre-calculus
 
 ### Notes:
+
+{{% children depth="12" description="true" sort="Weight" showhidden="false" %}}

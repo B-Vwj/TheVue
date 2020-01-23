@@ -28,3 +28,36 @@ weight = 1
 ***Institutional Design:*** The role of rules and procedures in politics.
 
 ***Institutional Durability:*** "Institutions tend to be stable and resist change" because... "Authority is placed on the institution not the individual".
+
+***Collective Action Problems:***
+
+| Coordination Problems | The Prisoner's Dilemma |
+| :------------- | :------------- |
+| Group Size | Institutions/Enforcements/Coercion |
+| Leaders/Politicians | Free-Rider Problems <br/> - Incentives/Rewards |
+| Uncertainty/Insufficient information | Tragedy of the commons |
+| Focal Point | |
+
+***The Cost of Collective Action***
+
+- Transaction Costs
+- Conformity Costs
+
+***Representative Government***
+
+- Representative Government
+- Direct Democracy
+- Republic
+- Tyranny
+- Parliamentary Government
+
+***The Work of Government***
+
+1. Private Goods
+1. Public Goods
+1. Collective Goods
+
+***Collective Action and America's Constitution***
+
+- Fixes previous problems/failures
+- Transaction vs. Conformity Costs
