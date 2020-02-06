@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to TheVue on TheVue</title>
+    <link>https://b-vwj.github.io/TheVue/</link>
+    <description>Recent content in Welcome to TheVue on TheVue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://b-vwj.github.io/TheVue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>American Government and Politics</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/notes/chapter1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/notes/chapter1/</guid>
+      <description>Notes: The Principles of Politics  All political behavior has a purpose (Rationality Principle); &amp;ldquo;Everyone has a goal&amp;rdquo;. Institutions structure politics (Institution Principle); All politics is collective actions (Collective-action Principle); Political outcomes are the product of individual preferences &amp;amp; institutional procedures (Policy Principle); How we got here matters! (History Principle);  Sentences to remember  &amp;ldquo;Game Theory&amp;rdquo; (Involves Math, Econ, and Pols) &amp;ldquo;Change politics means changing institutions!&amp;rdquo; &amp;ldquo;Interests, Interactions, Institutions!</description>
+    </item>
+    
+    <item>
+      <title>College Algebra and Pre-calculus Notes</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/polynomial_funcs_and_their_graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/polynomial_funcs_and_their_graphs/</guid>
+      <description>Notes: Terms Polynomial function(s): a polynomial function of degree n is a function of the form&amp;hellip;  P(x) = a(n)x(n) + a(n-1)x(n-1) + &amp;hellip; + a1x + a0  where n is a nonnegative integer and an =/= 0
+Leading Term: of a polynomial is the term with the highest exponent.
+Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldquo;x coordinates of the x-intercepts.</description>
+    </item>
+    
+    <item>
+      <title>Macro-Economics Chapter 1</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/government/economics/macro-economics/chapter1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/government/economics/macro-economics/chapter1/</guid>
+      <description>Notes: Exploring MindTap MindTap contains Tools, Apps, and Activities such as: - Interactive Book - Digital Book (highlighting1, notes1, dictionary, flashcards) - Graph Builder (Found in Interactive Book) - Video lessons w/ Quick Quizzes - Adaptive Test Prep.
+3 ways to view resources: 1. Week View 1. Unit View 1. List View
+Accessibility Tools: - Readspeaker
+App Bar: - StudyHub - Search Bar - Progress App - Full Book App</description>
+    </item>
+    
+    <item>
+      <title>Macro-Economics Terms</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/government/economics/macro-economics/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/government/economics/macro-economics/terms/</guid>
+      <description>Book Recommendations (by Professor)  Adam Smith - &amp;ldquo;Wealth of Nations&amp;rdquo;  Terms Oikonomos: Greek work that then became&amp;hellip; Economics!
+Efficiency: Society is getting the maximum benefits from it&amp;rsquo;s scarce resources (Size of Pie)
+Equality: Benefits are distributed uniformly among society&amp;rsquo;s members (Division of Pie slices)
+Margin: Edge (knife edge? idr lol)
+Economics: &amp;ldquo;How society manages its scarce resources&amp;rdquo; - (Alfred Marital): &amp;ldquo;A study of mankind in the ordinary business of life.</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot Documentation</title>
+      <link>https://b-vwj.github.io/TheVue/programming/spring-boot/spring_mvc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/spring-boot/spring_mvc/</guid>
+      <description>Spring Boot Documentation Things to know  Spring Initializr: Fast way to pull in dependencies you need for an application and does most of the work for you.
+ Example dependencies: Spring Web: Thymeleaf Spring Boot DevTools  Maven comes with a pom.xml file
+ Gradle comes with the build.gradle file
+ Language is chosen with an &amp;lsquo;id&amp;rsquo; (i.e. &amp;ldquo;id &#39;java&#39;&amp;rdquo;) (done under plugins)
+ Spring framework &amp;amp; dependency management are also under plugins.</description>
+    </item>
+    
+    <item>
+      <title>College Algebra and Pre-calculus Homework</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter3_hw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter3_hw/</guid>
+      <description>Homework for Chapter 3
+Section 3.1 Read pages 250–261 On pages 261-262 work problems 13, 17, 21, 23, 25, 29, 31, 4
+Section 3.2 Read pages 265–270 On pages 270–271 work problems 1, 7, 9, 13, 17, 19, 23, 25, 27, 29, 31, 33, 37, 39, 41, 43, 47, 53, 57, 63, 65
+Section 3.3 Read pages 272–279 On pages 279–280 work problems 1, 5, 7, 9, 11, 13, 17, 21, 25, 33, 37, 39, 41, 45, 49, 53, 57</description>
+    </item>
+    
+    <item>
+      <title>College Algebra and Pre-calculus Notes</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/dividing_polynomials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/dividing_polynomials/</guid>
+      <description>Notes: Terms P(x) - Polynomial function.
+D(x) - The Divider (What you used to divide the polynomial function). &amp;ldquo;D is for Divider&amp;rdquo;.
+R(x) - The Reminder (Quantity that is left over after the division operation).
+Other Things To Remember:  The two ways to write a Deperessed Polynomial :
+*P(x) = D(x)*Q(x)+R(x)*
+OR
+P(x)/D(x) = Q(x) + R(x)/D(x)
+  Example Problem:
+Divide the polynomial P(x) = x4 + 3x3 - 5x2 + 2x - 8 by the polynomial D(x) = x + 2.</description>
+    </item>
+    
+    <item>
+      <title>Extra Information</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/glossary/extras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/glossary/extras/</guid>
+      <description> Preferences is the same word from the book as values and interests. &amp;ldquo;Interests = Preferences = Values&amp;rdquo;.   </description>
+    </item>
+    
+    <item>
+      <title>Spring Boot Documentation</title>
+      <link>https://b-vwj.github.io/TheVue/programming/spring-boot/maven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/spring-boot/maven/</guid>
+      <description>Maven &amp;ldquo;When building our Spring Application, we need to manage our dependencies.&amp;rdquo;
+&amp;ldquo;We need to import the &amp;lsquo;Jar&amp;rsquo;s that is required for Spring Applications to work.&amp;rdquo;
+ Usually in Java, you&amp;rsquo;d take the JARs and add it to the CLASSPATH  We won&amp;rsquo;t do this. We&amp;rsquo;ll use Maven instead!   What is Maven? Maven: Build Independency Management Tool
+Lets you declare all the dependencies you want in a single file.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://b-vwj.github.io/TheVue/_footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/_footer/</guid>
+      <description>Brandon Vue © 2020</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://b-vwj.github.io/TheVue/_header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/_header/</guid>
+      <description>TheVue</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/</guid>
+      <description>Tentative Schedule for Math 1180: Monday, January 13 - Course Information and Section 3.1
+Wednesday, January 15 - Section 3.2
+Friday, January 17 - Section 3.3
+Monday, January 20 - Holiday—No Class
+Wednesday, January 22 - Section3.4
+Friday, January 24 - Section3.5
+Monday, January 27 - Section 3.6
+Wednesday, January 29 - Review Day
+Friday, January 31 - Test 1 over chapter 3
+Monday, February 3 - Section4.1
+Wednesday, February 5 - Section 4.</description>
+    </item>
+    
+  </channel>
+</rss>

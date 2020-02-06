@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring Boot Documentation on TheVue</title>
+    <link>https://b-vwj.github.io/TheVue/programming/spring-boot/</link>
+    <description>Recent content in Spring Boot Documentation on TheVue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://b-vwj.github.io/TheVue/programming/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spring Boot Documentation</title>
+      <link>https://b-vwj.github.io/TheVue/programming/spring-boot/spring_mvc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/spring-boot/spring_mvc/</guid>
+      <description>Spring Boot Documentation Things to know  Spring Initializr: Fast way to pull in dependencies you need for an application and does most of the work for you.
+ Example dependencies: Spring Web: Thymeleaf Spring Boot DevTools  Maven comes with a pom.xml file
+ Gradle comes with the build.gradle file
+ Language is chosen with an &amp;lsquo;id&amp;rsquo; (i.e. &amp;ldquo;id &#39;java&#39;&amp;rdquo;) (done under plugins)
+ Spring framework &amp;amp; dependency management are also under plugins.</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot Documentation</title>
+      <link>https://b-vwj.github.io/TheVue/programming/spring-boot/maven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/spring-boot/maven/</guid>
+      <description>Maven &amp;ldquo;When building our Spring Application, we need to manage our dependencies.&amp;rdquo;
+&amp;ldquo;We need to import the &amp;lsquo;Jar&amp;rsquo;s that is required for Spring Applications to work.&amp;rdquo;
+ Usually in Java, you&amp;rsquo;d take the JARs and add it to the CLASSPATH  We won&amp;rsquo;t do this. We&amp;rsquo;ll use Maven instead!   What is Maven? Maven: Build Independency Management Tool
+Lets you declare all the dependencies you want in a single file.</description>
+    </item>
+    
+  </channel>
+</rss>
