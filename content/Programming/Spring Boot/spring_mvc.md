@@ -1,7 +1,7 @@
 +++
 title = "Spring Boot Documentation"
 menutitle = "Spring MVC"
-description = ""
+description = "Spring MVC"
 weight = 1
 +++
 

@@ -2,7 +2,7 @@
 title = "College Algebra and Pre-calculus Notes"
 menutitle = "3.2 - Dividing Polynomials"
 description = "Dividing Polynomials"
-weight = 1
+weight = 2
 +++
 
 ## _Notes:_
@@ -34,4 +34,3 @@ _Divide the polynomial **P(x) = x<sup>4</sup> + 3x<sup>3</sup> - 5x<sup>2</sup> 
 Long-Division: <br/>
 (quotient) **x<sup>3</sup> + x<sup>2</sup> - 7x + 16**<br/>
 **x + 2 | P(x) = x<sup>4</sup> + 3x<sup>3</sup> - 5x<sup>2</sup> + 2x - 8**
- 
