@@ -2,7 +2,7 @@
 title = "College Algebra and Pre-calculus Notes"
 menutitle = "3.2 - Dividing Polynomials"
 description = "Dividing Polynomials"
-weight = 2
+weight = 3
 +++
 
 ## _Notes:_

@@ -2,7 +2,7 @@
 title = "College Algebra and Pre-calculus Notes"
 menutitle = "3.3 - Real Zeros of Polynomials"
 description = "Zeros of Polynomials"
-weight = 3
+weight = 4
 +++
 
 ## _Notes:_

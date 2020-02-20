@@ -2,7 +2,7 @@
 title = "College Algebra and Pre-calculus Notes"
 menutitle = "3.5 - Complex Zeros & Fundamental Theorems of Algebra"
 description = "Complex Zeros & Fundamental Theorems of Algebra"
-weight = 5
+weight = 6
 +++
 
 ## _Notes:_

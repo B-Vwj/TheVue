@@ -2,7 +2,7 @@
 title = "College Algebra and Pre-calculus Notes"
 menutitle = "3.4 - Complex Numbers"
 description = "Complex Numbers"
-weight = 4
+weight = 5
 +++
 
 ## _Notes:_
