@@ -20,26 +20,6 @@
     </item>
     
     <item>
-      <title>College Algebra and Pre-calculus Notes</title>
-      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</guid>
-      <description>Notes: Terms Polynomial function(s): a polynomial function of degree n is a function of the form&amp;hellip;  P(x) = a(n)x(n) + a(n-1)x(n-1) + &amp;hellip; + a1x + a0  where n is a nonnegative integer and an =/= 0
-Leading Term: of a polynomial is the term with the highest exponent.
-Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldquo;x coordinates of the x-intercepts.</description>
-    </item>
-    
-    <item>
-      <title>College Algebra and Pre-calculus Notes</title>
-      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</guid>
-      <description> Notes: Terms </description>
-    </item>
-    
-    <item>
       <title>Macro-Economics Chapter 1</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/government/economics/macro-economics/chapter1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -91,19 +71,22 @@ Section 3.3 Read pages 272–279 On pages 279–280 work problems 1, 5, 7, 9, 11
     
     <item>
       <title>College Algebra and Pre-calculus Notes</title>
-      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/</link>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/</guid>
-      <description>Notes: Terms P(x): Polynomial function.
-D(x): - The Divider (What you used to divide the polynomial function). &amp;ldquo;D is for Divider&amp;rdquo;.
-R(x): - The Reminder (Quantity that is left over after the division operation).
-Other Things To Remember:  The two ways to write a Deperessed Polynomial :
-*P(x) = D(x)*Q(x)+R(x)*
-OR
-P(x)/D(x) = Q(x) + R(x)/D(x)
-  Ways to divide Polynomials  Long division  OR
- Synthetic division  Theorems The Remainder Theorem: If a polynomial P(x) is divided by (x-c), then the remainder &amp;reg; is P&amp;copy;.</description>
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</guid>
+      <description>Notes: Terms Polynomial function(s): a polynomial function of degree n is a function of the form&amp;hellip;  P(x) = a(n)x(n) + a(n-1)x(n-1) + &amp;hellip; + a1x + a0  where n is a nonnegative integer and an =/= 0
+Leading Term: of a polynomial is the term with the highest exponent.
+Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldquo;x coordinates of the x-intercepts.</description>
+    </item>
+    
+    <item>
+      <title>College Algebra and Pre-calculus Notes</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</guid>
+      <description> Notes: Terms </description>
     </item>
     
     <item>
@@ -136,6 +119,23 @@ Lets you declare all the dependencies you want in a single file.</description>
       <description>Homework Problems for Chapter 4  All of these are due on the day of the Chapter 4 Test
 Section 4.1 Read pages 328 – 336 On pages 336 – 340 Do problems 1, 3, 5, 7, 11, 15, 19, 21, 39, 65, 67, 75
 Section 4.2 Read pages 342 – 349 On pages 349 – 351 Do problems 3, 5, 7, 9, 11, 13, 15, 19, 21, 25, 29, 33, 35, 37, 39, 79</description>
+    </item>
+    
+    <item>
+      <title>College Algebra and Pre-calculus Notes</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/</guid>
+      <description>Notes: Terms P(x): Polynomial function.
+D(x): - The Divider (What you used to divide the polynomial function). &amp;ldquo;D is for Divider&amp;rdquo;.
+R(x): - The Reminder (Quantity that is left over after the division operation).
+Other Things To Remember:  The two ways to write a Deperessed Polynomial :
+*P(x) = D(x)*Q(x)+R(x)*
+OR
+P(x)/D(x) = Q(x) + R(x)/D(x)
+  Ways to divide Polynomials  Long division  OR
+ Synthetic division  Theorems The Remainder Theorem: If a polynomial P(x) is divided by (x-c), then the remainder &amp;reg; is P&amp;copy;.</description>
     </item>
     
     <item>
