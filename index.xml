@@ -86,7 +86,10 @@ Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldqu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</guid>
-      <description> Notes: Terms </description>
+      <description>Notes: Terms Exponential Functions: is a function that can be written in the form&amp;hellip; *f(x) = c * ax*; Where the number &amp;lsquo;c&amp;rsquo; and &amp;lsquo;a&amp;rsquo; are constants.
+&amp;lsquo;c&amp;rsquo; is called the initial value (y-intercept). &amp;lsquo;a&amp;rsquo; is called the growth factor.
+If a &amp;gt; 1; the function is growing. If a &amp;lt; 1; the function is decaying.  Growing: increasing by a FIXED percentage.
+Decaying: decreasing by a FIXED percentage.</description>
     </item>
     
     <item>
@@ -136,6 +139,19 @@ OR
 P(x)/D(x) = Q(x) + R(x)/D(x)
   Ways to divide Polynomials  Long division  OR
  Synthetic division  Theorems The Remainder Theorem: If a polynomial P(x) is divided by (x-c), then the remainder &amp;reg; is P&amp;copy;.</description>
+    </item>
+    
+    <item>
+      <title>College Algebra and Pre-calculus Notes</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/logarithmic_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/logarithmic_functions/</guid>
+      <description> Notes: Terms Definition of Logarithm: A logarithm can be defined as an exponent.
+ loga(b) = c means the same as ac = b
+ &amp;ldquo;loga(b) is the power to which we raise &amp;lsquo;a&amp;rsquo; to get &amp;lsquo;b&amp;rsquo;.&amp;ldquo;   Natural Logarithms: These are logarithms with base &amp;lsquo;e&amp;rsquo; (Euler&amp;rsquo;s Number).
+ loge(x) is abbreviated ln(x).
+ &amp;ldquo;ln(x) is the power to which we raise &amp;lsquo;e&amp;rsquo; (Euler&amp;rsquo;s number) to get &amp;lsquo;x&amp;rsquo;.&amp;rdquo;   </description>
     </item>
     
     <item>
