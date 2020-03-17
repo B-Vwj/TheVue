@@ -23,6 +23,29 @@ Section 3.3 Read pages 272–279 On pages 279–280 work problems 1, 5, 7, 9, 11
     </item>
     
     <item>
+      <title>Exponential Functions</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</guid>
+      <description>Notes: Terms Exponential Functions: is a function that can be written in the form&amp;hellip; *f(x) = c * ax*; Where the number &amp;lsquo;c&amp;rsquo; and &amp;lsquo;a&amp;rsquo; are constants.
+&amp;lsquo;c&amp;rsquo; is called the initial value (y-intercept). &amp;lsquo;a&amp;rsquo; is called the growth factor.
+If a &amp;gt; 1; the function is growing. If a &amp;lt; 1; the function is decaying.  Growing: increasing by a FIXED percentage.
+Decaying: decreasing by a FIXED percentage.</description>
+    </item>
+    
+    <item>
+      <title>Polynomial Functions and Their Graphs</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</guid>
+      <description>Notes: Terms Polynomial function(s): a polynomial function of degree n is a function of the form&amp;hellip;  P(x) = a(n)x(n) + a(n-1)x(n-1) + &amp;hellip; + a1x + a0  where n is a nonnegative integer and an =/= 0
+Leading Term: of a polynomial is the term with the highest exponent.
+Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldquo;x coordinates of the x-intercepts.</description>
+    </item>
+    
+    <item>
       <title>College Algebra and Pre-calculus Homework</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter4_hw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -31,6 +54,111 @@ Section 3.3 Read pages 272–279 On pages 279–280 work problems 1, 5, 7, 9, 11
       <description>Homework Problems for Chapter 4  All of these are due on the day of the Chapter 4 Test
 Section 4.1 Read pages 328 – 336 On pages 336 – 340 Do problems 1, 3, 5, 7, 11, 15, 19, 21, 39, 65, 67, 75
 Section 4.2 Read pages 342 – 349 On pages 349 – 351 Do problems 3, 5, 7, 9, 11, 13, 15, 19, 21, 25, 29, 33, 35, 37, 39, 79</description>
+    </item>
+    
+    <item>
+      <title>Dividing Polynomials</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/</guid>
+      <description>Notes: Terms P(x): Polynomial function.
+D(x): - The Divider (What you used to divide the polynomial function). &amp;ldquo;D is for Divider&amp;rdquo;.
+R(x): - The Reminder (Quantity that is left over after the division operation).
+Other Things To Remember:  The two ways to write a Deperessed Polynomial :
+*P(x) = D(x)*Q(x)+R(x)*
+OR
+P(x)/D(x) = Q(x) + R(x)/D(x)
+  Ways to divide Polynomials  Long division  OR
+ Synthetic division  Theorems The Remainder Theorem: If a polynomial P(x) is divided by (x-c), then the remainder &amp;reg; is P&amp;copy;.</description>
+    </item>
+    
+    <item>
+      <title>Logarithmic Functions</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/logarithmic_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/logarithmic_functions/</guid>
+      <description>Notes: Terms Definition of Logarithm: A logarithm can be defined as an exponent.
+ loga(b) = c means the same as ac = b
+ &amp;ldquo;loga(b) is the power to which we raise &amp;lsquo;a&amp;rsquo; to get &amp;lsquo;b&amp;rsquo;.&amp;ldquo;   Natural Logarithms: These are logarithms with base &amp;lsquo;e&amp;rsquo; (Euler&amp;rsquo;s Number).
+ loge(x) is abbreviated ln(x).
+ &amp;ldquo;ln(x) is the power to which we raise &amp;lsquo;e&amp;rsquo; (Euler&amp;rsquo;s number) to get &amp;lsquo;x&amp;rsquo;.&amp;rdquo;   Common Logarithms: These are logarithms with base 10.</description>
+    </item>
+    
+    <item>
+      <title>Laws of Logarithms</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/laws_of_logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/laws_of_logs/</guid>
+      <description>Notes: Terms The Product Rule:
+*loga(x * y) = loga(x) + loga(y)*
+ It&amp;rsquo;s just a rewritten form of:  *ar * as = ar + s*  The Quotient Rule:
+loga(x / y) = loga(x) - loga(y)
+ It&amp;rsquo;s just a rewritten form of:  ar / as = ar - s  The Power Rule:
+*loga(xc) = C * loga(x)*
+ It&amp;rsquo;s just a rewritten form of:  *(ar)s = ar * s*  Theorems/Formulas The Change of Base Formula:  logab = ln(b) / ln(a) = log(b) / log(a)</description>
+    </item>
+    
+    <item>
+      <title>Zeros of Polynomials</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/real_zeros_of_polynomials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/real_zeros_of_polynomials/</guid>
+      <description>Notes: Terms Rational Suspects: The factors we&amp;rsquo;ve found based on the polynomial function.
+Real-Number Zero: A number that when plugged into the polynomial function; Returns 0 in the remainder.
+Example Problem to reinforce the idea Suppose that x = (5&amp;frasl;3) is a zero of a polynomial function that has INTEGER coefficients. What does that mean about a factor of the polynomial?
+x = (5/3)
+can also be&amp;hellip;
+5x = 3</description>
+    </item>
+    
+    <item>
+      <title>Complex Numbers</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_numbers/</guid>
+      <description>Notes: Terms Complex Numbers: i = √-1;  A complex number is a number of the form a + bi;  Where &amp;lsquo;a&amp;rsquo; and &amp;lsquo;b&amp;rsquo; are real numbers and i = √-1.
+Extras How many times would the graph of the function f(x) = 2x2 - x + 5 cross the x-axis?
+Answer:  The graph wouldn&amp;rsquo;t cross the x-axis, since intercepts are Real-Number Zeros and this function has no real number zeros.</description>
+    </item>
+    
+    <item>
+      <title>Exponential and Logarithmic Equations</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_and_log_equations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_and_log_equations/</guid>
+      <description> Notes: Terms </description>
+    </item>
+    
+    <item>
+      <title>Complex Zeros &amp; Fundamental Theorems of Algebra</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_zeros_and_fundamental_theorem_of_algebra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_zeros_and_fundamental_theorem_of_algebra/</guid>
+      <description>Notes: Terms Theorems Fundamental Theorem of Algebra:  Every Polynomial function has at least one complex number zero.
+The Zeros Theorem:  A Polynomial function of degree &amp;lsquo;n&amp;rsquo; has exactly &amp;lsquo;n&amp;rsquo; zeros, provided that a zero of multiplicity &amp;lsquo;k&amp;rsquo; is counted &amp;lsquo;k&amp;rsquo; times.
+Complex Zeros of polynomials with Real Numbers:
+Let f(x) be a polynomial with real number coefficients { If &#39;a+bi&#39; is a zero of f(x), then a-bi is also a zero of f(x).</description>
+    </item>
+    
+    <item>
+      <title>Rational Functions</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/rational_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/rational_functions/</guid>
+      <description>Notes: Terms Rational Function is a function of the form:  R(x) = n(x)/d(x)  where n(x) and d(x) are polynomials.
+Domain: Input &amp;lsquo;range&amp;rsquo; of x.
+Range: Output &amp;lsquo;range&amp;rsquo; of y.
+Y-axis: &amp;ldquo;Vertical Asymptote&amp;rdquo;
+ Vertical Asymptote:  A Vertical Asymptote for a rational function is a line x=k;  Where &amp;lsquo;k&amp;rsquo; is a zero of the denominator of the function.  Example:
+f(x) = (2x+5)/(x-2)  When x is close to 2, x-2 is close to 0, so dividing by a very small number, which gives us large numbers.</description>
     </item>
     
     <item>
