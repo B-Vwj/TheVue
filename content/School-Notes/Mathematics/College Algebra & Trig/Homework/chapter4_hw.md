@@ -1,8 +1,8 @@
 +++
-title = "College Algebra and Pre-calculus Homework"
+title = "Chapter 4 Math HW"
 menutitle = "Chapter 4 Math HW"
-description = "Homework in here..."
-weight = 3
+description = "CH. 4 Homework in here..."
+weight = 2
 +++
 
 ***Homework Problems for Chapter 4*** <br/>

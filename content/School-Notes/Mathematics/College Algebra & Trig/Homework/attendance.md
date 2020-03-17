@@ -1,3 +1,10 @@
++++
+title = "OUTDATED Math Schedule"
+menutitle = "OUTDATED Math Schedule"
+description = "THIS IS OUTDATED"
+weight = 2
++++
+
 Tentative Schedule for Math 1180:
 Monday, January 13
 - Course Information and Section 3.1
