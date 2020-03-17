@@ -70,18 +70,7 @@ Section 3.3 Read pages 272–279 On pages 279–280 work problems 1, 5, 7, 9, 11
     </item>
     
     <item>
-      <title>College Algebra and Pre-calculus Notes</title>
-      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</guid>
-      <description>Notes: Terms Polynomial function(s): a polynomial function of degree n is a function of the form&amp;hellip;  P(x) = a(n)x(n) + a(n-1)x(n-1) + &amp;hellip; + a1x + a0  where n is a nonnegative integer and an =/= 0
-Leading Term: of a polynomial is the term with the highest exponent.
-Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldquo;x coordinates of the x-intercepts.</description>
-    </item>
-    
-    <item>
-      <title>College Algebra and Pre-calculus Notes</title>
+      <title>Exponential Functions</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -99,6 +88,17 @@ Decaying: decreasing by a FIXED percentage.</description>
       
       <guid>https://b-vwj.github.io/TheVue/school-notes/government/american-government-and-politics/glossary/extras/</guid>
       <description> Preferences is the same word from the book as values and interests. &amp;ldquo;Interests = Preferences = Values&amp;rdquo;.   </description>
+    </item>
+    
+    <item>
+      <title>Polynomial Functions and Their Graphs</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</guid>
+      <description>Notes: Terms Polynomial function(s): a polynomial function of degree n is a function of the form&amp;hellip;  P(x) = a(n)x(n) + a(n-1)x(n-1) + &amp;hellip; + a1x + a0  where n is a nonnegative integer and an =/= 0
+Leading Term: of a polynomial is the term with the highest exponent.
+Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldquo;x coordinates of the x-intercepts.</description>
     </item>
     
     <item>
@@ -125,7 +125,7 @@ Section 4.2 Read pages 342 – 349 On pages 349 – 351 Do problems 3, 5, 7, 9, 
     </item>
     
     <item>
-      <title>College Algebra and Pre-calculus Notes</title>
+      <title>Dividing Polynomials</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -142,20 +142,35 @@ P(x)/D(x) = Q(x) + R(x)/D(x)
     </item>
     
     <item>
-      <title>College Algebra and Pre-calculus Notes</title>
+      <title>Logarithmic Functions</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/logarithmic_functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/logarithmic_functions/</guid>
-      <description> Notes: Terms Definition of Logarithm: A logarithm can be defined as an exponent.
+      <description>Notes: Terms Definition of Logarithm: A logarithm can be defined as an exponent.
  loga(b) = c means the same as ac = b
  &amp;ldquo;loga(b) is the power to which we raise &amp;lsquo;a&amp;rsquo; to get &amp;lsquo;b&amp;rsquo;.&amp;ldquo;   Natural Logarithms: These are logarithms with base &amp;lsquo;e&amp;rsquo; (Euler&amp;rsquo;s Number).
  loge(x) is abbreviated ln(x).
- &amp;ldquo;ln(x) is the power to which we raise &amp;lsquo;e&amp;rsquo; (Euler&amp;rsquo;s number) to get &amp;lsquo;x&amp;rsquo;.&amp;rdquo;   </description>
+ &amp;ldquo;ln(x) is the power to which we raise &amp;lsquo;e&amp;rsquo; (Euler&amp;rsquo;s number) to get &amp;lsquo;x&amp;rsquo;.&amp;rdquo;   Common Logarithms: These are logarithms with base 10.</description>
     </item>
     
     <item>
-      <title>College Algebra and Pre-calculus Notes</title>
+      <title>Laws of Logarithms</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/laws_of_logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/laws_of_logs/</guid>
+      <description>Notes: Terms The Product Rule:
+*loga(x * y) = loga(x) + loga(y)*
+ It&amp;rsquo;s just a rewritten form of:  *ar * as = ar + s*  The Quotient Rule:
+loga(x / y) = loga(x) - loga(y)
+ It&amp;rsquo;s just a rewritten form of:  ar / as = ar - s  The Power Rule:
+*loga(xc) = C * loga(x)*
+ It&amp;rsquo;s just a rewritten form of:  *(ar)s = ar * s*  Theorems/Formulas The Change of Base Formula:  logab = ln(b) / ln(a) = log(b) / log(a)</description>
+    </item>
+    
+    <item>
+      <title>Zeros of Polynomials</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/real_zeros_of_polynomials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -169,7 +184,7 @@ can also be&amp;hellip;
     </item>
     
     <item>
-      <title>College Algebra and Pre-calculus Notes</title>
+      <title>Complex Numbers</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_numbers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -180,7 +195,16 @@ Answer:  The graph wouldn&amp;rsquo;t cross the x-axis, since intercepts are Rea
     </item>
     
     <item>
-      <title>College Algebra and Pre-calculus Notes</title>
+      <title>Exponential and Logarithmic Equations</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_and_log_equations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_and_log_equations/</guid>
+      <description> Notes: Terms </description>
+    </item>
+    
+    <item>
+      <title>Complex Zeros &amp; Fundamental Theorems of Algebra</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_zeros_and_fundamental_theorem_of_algebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -192,7 +216,7 @@ Let f(x) be a polynomial with real number coefficients { If &#39;a+bi&#39; is a 
     </item>
     
     <item>
-      <title>College Algebra and Pre-calculus Notes</title>
+      <title>Rational Functions</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/rational_functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
