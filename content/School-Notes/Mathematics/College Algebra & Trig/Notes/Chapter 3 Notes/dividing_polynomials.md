@@ -1,7 +1,7 @@
 +++
-title = "College Algebra and Pre-calculus Notes"
+title = "Dividing Polynomials"
 menutitle = "3.2 - Dividing Polynomials"
-description = "Dividing Polynomials"
+description = "3.2 Notes"
 weight = 3
 +++
 

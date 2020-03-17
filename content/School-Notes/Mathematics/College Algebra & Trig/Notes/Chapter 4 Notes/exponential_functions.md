@@ -1,7 +1,7 @@
 +++
-title = "College Algebra and Pre-calculus Notes"
+title = "Exponential Functions"
 menutitle = "4.1 Exponential Functions"
-description = "Exponential Functions"
+description = "4.1 Notes"
 weight = 2
 +++
 

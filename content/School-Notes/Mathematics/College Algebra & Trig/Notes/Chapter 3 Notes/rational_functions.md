@@ -1,7 +1,7 @@
 +++
-title = "College Algebra and Pre-calculus Notes"
+title = "Rational Functions"
 menutitle = "3.6 - Rational Functions"
-description = "Rational Functions"
+description = "3.6 Notes"
 weight = 7
 +++
 

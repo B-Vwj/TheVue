@@ -1,7 +1,7 @@
 +++
-title = "College Algebra and Pre-calculus Notes"
+title = "Polynomial Functions and Their Graphs"
 menutitle = "3.1 - Polynomial Functions and Their Graphs"
-description = "Polynomial Functions and Their Graphs"
+description = "3.1 Notes"
 weight = 2
 +++
 

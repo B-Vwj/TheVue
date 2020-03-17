@@ -1,7 +1,7 @@
 +++
-title = "College Algebra and Pre-calculus Notes"
+title = "Complex Numbers"
 menutitle = "3.4 - Complex Numbers"
-description = "Complex Numbers"
+description = "3.4 Notes"
 weight = 5
 +++
 

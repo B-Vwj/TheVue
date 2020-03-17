@@ -1,5 +1,5 @@
 +++
-title = "College Algebra and Pre-calculus"
+title = "Chapter 3 Notes"
 menutitle = "Chapter 3 Notes"
 description = ""
 weight = 1

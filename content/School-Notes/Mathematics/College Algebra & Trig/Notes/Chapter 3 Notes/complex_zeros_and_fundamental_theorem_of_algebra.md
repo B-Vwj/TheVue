@@ -1,7 +1,7 @@
 +++
-title = "College Algebra and Pre-calculus Notes"
+title = "Complex Zeros & Fundamental Theorems of Algebra"
 menutitle = "3.5 - Complex Zeros & Fundamental Theorems of Algebra"
-description = "Complex Zeros & Fundamental Theorems of Algebra"
+description = "3.5 Notes"
 weight = 6
 +++
 
