@@ -103,6 +103,10 @@
   </url>
   
   <url>
+    <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter4_hw/</loc>
+  </url>
+  
+  <url>
     <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</loc>
   </url>
   
@@ -115,6 +119,10 @@
   </url>
   
   <url>
+    <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/</loc>
+  </url>
+  
+  <url>
     <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/</loc>
   </url>
   
@@ -124,10 +132,6 @@
   
   <url>
     <loc>https://b-vwj.github.io/TheVue/programming/spring-boot/maven/</loc>
-  </url>
-  
-  <url>
-    <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter4_hw/</loc>
   </url>
   
   <url>
@@ -169,11 +173,6 @@
   
   <url>
     <loc>https://b-vwj.github.io/TheVue/_header/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/</loc>
     <priority>0</priority>
   </url>
   
