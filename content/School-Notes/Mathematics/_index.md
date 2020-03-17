@@ -6,7 +6,6 @@ weight = 1
 +++
 
 ## Les Mathematiques
-{{% children depth="12" description="true" sort="Weight" showhidden="false" %}}
 
 ## Update!
 
@@ -36,8 +35,6 @@ Wednesday, April 1:
 
 Friday, April 3:
 - Section 7.1
-
-
 
 Monday, April 6:
 - Work from sections 6.4, 6.5, 7.1 is due

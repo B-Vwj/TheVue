@@ -1,5 +1,3 @@
-
-
 Tentative Schedule for Math 1180:
 Monday, January 13
 - Course Information and Section 3.1
