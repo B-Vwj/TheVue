@@ -5,4 +5,5 @@ description = "Javascript ES5 Documentation/Notes"
 weight = 1
 +++
 
-Notes and Documentation taken about ES5 Javascript.
+## Notes and Documentation taken about ES5 Javascript.
+{{% children depth="99" description="true" sort="Weight" showhidden="false" %}}
