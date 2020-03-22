@@ -2,7 +2,7 @@
 title = "Web Development Notes"
 menutitle = "Web Dev Notes"
 description = "Notes/Documentation for Web Development"
-weight = 1
+weight = 4
 +++
 
 ## HTML

@@ -2,7 +2,7 @@
 title = "Spring Boot Documentation"
 menutitle = "Maven"
 description = ""
-weight = 2
+weight = 3
 +++
 
 ## Maven
