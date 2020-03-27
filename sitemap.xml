@@ -31,6 +31,14 @@
   </url>
   
   <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/css/tips/sticky_footer/</loc>
+  </url>
+  
+  <url>
     <loc>https://b-vwj.github.io/TheVue/school-notes/computer-science/data-strutures-and-algorithms/</loc>
   </url>
   
@@ -47,11 +55,15 @@
   </url>
   
   <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/html/</loc>
+  </url>
+  
+  <url>
     <loc>https://b-vwj.github.io/TheVue/programming/java/</loc>
   </url>
   
   <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/</loc>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/</loc>
   </url>
   
   <url>
@@ -103,6 +115,26 @@
   </url>
   
   <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/css/tips/</loc>
+  </url>
+  
+  <url>
     <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</loc>
   </url>
   
@@ -115,15 +147,11 @@
   </url>
   
   <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/es6-javascript/</loc>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es6-javascript/</loc>
   </url>
   
   <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/</loc>
-  </url>
-  
-  <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/objects_in_js/</loc>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/objects_in_js/</loc>
   </url>
   
   <url>
@@ -139,11 +167,19 @@
   </url>
   
   <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/</loc>
+  </url>
+  
+  <url>
     <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/</loc>
   </url>
   
   <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/functions_in_js/</loc>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/functions_in_js/</loc>
   </url>
   
   <url>
@@ -159,15 +195,15 @@
   </url>
   
   <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/constructors/</loc>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/</loc>
+  </url>
+  
+  <url>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/constructors/</loc>
   </url>
   
   <url>
     <loc>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/laws_of_logs/</loc>
-  </url>
-  
-  <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/</loc>
   </url>
   
   <url>
@@ -183,7 +219,7 @@
   </url>
   
   <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/closures/</loc>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/closures/</loc>
   </url>
   
   <url>
@@ -191,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/call_apply_and_bind_methods/</loc>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/call_apply_and_bind_methods/</loc>
   </url>
   
   <url>
@@ -199,11 +235,11 @@
   </url>
   
   <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/javascript-past-projects/</loc>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/</loc>
   </url>
   
   <url>
-    <loc>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/javascript-past-projects/dice_game/</loc>
+    <loc>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/dice_game/</loc>
   </url>
   
   <url>

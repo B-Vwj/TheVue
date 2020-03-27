@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS in Depth on TheVue</title>
+    <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/</link>
+    <description>Recent content in CSS in Depth on TheVue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSS Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/</guid>
+      <description>The Cascade Fundamentally, CSS is about declaring rules: Under various conditions, we want certain things to happen.
+When declarations conflict, the cascade considers three things to resolve the difference: 1. Stylesheet Origin - Where the styles come from. Your styles are applied in conjunction with the browser’s default styles. 2. Selector Specificity - Which selectors take precedence over which. 3. Source Order - Order in which styles are declared in the stylesheet.</description>
+    </item>
+    
+    <item>
+      <title>CSS Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/</guid>
+      <description>Understand Specificity Understanding Specificity is essential. You can go a long way without an understanding of stylesheet origin because 99% of the styles on your website come from the same origin. But if you don’t understand specificity, it’ll come back to bite you.
+Inline Styles If you use an HTML style attribute to apply styles, the declarations are applied only to that element. - These are, in effect, “scoped” declarations, which override any declarations applied from your stylesheet or a &amp;lt;style&amp;gt; tag.</description>
+    </item>
+    
+    <item>
+      <title>CSS Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/</guid>
+      <description>Terminology of CSS Take this code as an example. This is called a declaration. This declaration is made up of a property (color) and a value (black):
+color: black;  Properties aren’t to be confused with attributes , which are part of the HTML syntax. For example, in the element &amp;lt;a href=“#”&amp;gt;&amp;lt;/a&amp;gt;, href is an attribute of the a tag.
+A group of declarations inside curly braces is called a declaration block.</description>
+    </item>
+    
+    <item>
+      <title>CSS Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/</guid>
+      <description>Understanding Stylesheet Origin The Stylesheets you add to your web page aren’t the only ones the browser applies. There are different types, or origins, of stylesheets. Yours are called authors stylesheets; There are also user agent styles, which are the browser’s default styles. - Use agent styles have lower priority, so your styles override them. - Some browsers let users define a user stylesheet. User stylesheets are rarely used and beyond your control, so I’ve left them out for simplicity.</description>
+    </item>
+    
+  </channel>
+</rss>

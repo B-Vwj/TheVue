@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript **ES5** Documentation on TheVue</title>
+    <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/</link>
+    <description>Recent content in Javascript **ES5** Documentation on TheVue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/objects_in_js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/objects_in_js/</guid>
+      <description>Objects in JavaScript &amp;ldquo;Everything is an Object&amp;rdquo; (well, almost)
+Primitives
+- Numbers - Strings - Booleans - Undefined - Null   Variables containing primitives actually hold that data inside the variable itself.  ++++++
+Everything ELSE
+- Arrays - Functions - Objects - Dates - Wrappers for Numbers, Strings, and Booleans  IS AN OBJECT.
+ Variables associated with objects don’t contain the object, but rather contain a reference to the place in memory to where the object sits/stored.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/functions_in_js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/functions_in_js/</guid>
+      <description> Functions in JavaScript Function  Functions are also objects in JS A func is an instance of the object type. A function behaves like any other object. We can store functions in a variable. We can pass a function as an argument to another function. We can return a function from another function. =&amp;gt; First Class Functions  </description>
+    </item>
+    
+    <item>
+      <title>Javascript Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/constructors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/constructors/</guid>
+      <description>Constructors in JS! Callback Functions - Functions that we pass into functions that will call them later.
+(Function)Constructors
+Var Person = function(name, yearOfBirth, Job) { this.name; this.yearOfBirth; this.job }
+Inheritance - Add all methods and properties into the constructor’s prototype property.
+Constructor: Person
+We’re adding the method:
+this.calcAge = func() { console.log(2020 - this.yearOfBirth) }  To the person constructor, and now, it is inherited by all objects. Example:</description>
+    </item>
+    
+    <item>
+      <title>Javascript Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/closures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/closures/</guid>
+      <description> Closures in JS  An inner function has always access to the variables and parameters of its outer functions, even after the outer function has returned.  </description>
+    </item>
+    
+    <item>
+      <title>Javascript Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/call_apply_and_bind_methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/call_apply_and_bind_methods/</guid>
+      <description>Bind, Call, and Apply in JS Call:  Set the ‘this’ variable to another object. Borrow a method from another object.  Apply:  The apply() method is used to write methods, which can be used on different objects. It is different from the function call() because it takes arguments as an array.  Bind:  Similar to call. Lets us set the ‘this’ variable explicitly. “Bind doesn’t immediately call the function, but generates a copy of the function so that we can store it somewhere” Bind method returns a function.</description>
+    </item>
+    
+  </channel>
+</rss>

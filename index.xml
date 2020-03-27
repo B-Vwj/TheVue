@@ -20,6 +20,17 @@
     </item>
     
     <item>
+      <title>CSS Tips</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/tips/sticky_footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/tips/sticky_footer/</guid>
+      <description>Sticky Footer for Your Website!  Footer at the bottom of page: For your HTML use&amp;hellip;
+&amp;lt;body&amp;gt; &amp;lt;div id=&amp;quot;page-container&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;content-wrap&amp;quot;&amp;gt; &amp;lt;!-- all other page content --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;footer id=&amp;quot;footer&amp;quot;&amp;gt;&amp;lt;/footer&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt;   For CSS an example to use is&amp;hellip;
+#page-container { position: relative; min-height: 100vh; } #content-wrap { padding-bottom: 2.5rem; /* Footer height */ } #footer { position: absolute; bottom: 0; width: 100%; height: 2.5rem; /* Footer height */ }  The page-container id tag covers the whole page (header, content, and footer), while the content-wrap id tag covers only the content (and possibly the header if you want to include it) while leaving the footer out so that you can position it in its absolute position to the bottom, hence:  bottom: 0;</description>
+    </item>
+    
+    <item>
       <title>Macro-Economics Chapter 1</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/government/economics/macro-economics/chapter1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -68,6 +79,37 @@ Section 4.2 Read pages 342 – 349 On pages 349 – 351 Do problems 3, 5, 7, 9, 
     </item>
     
     <item>
+      <title>CSS Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/</guid>
+      <description>The Cascade Fundamentally, CSS is about declaring rules: Under various conditions, we want certain things to happen.
+When declarations conflict, the cascade considers three things to resolve the difference: 1. Stylesheet Origin - Where the styles come from. Your styles are applied in conjunction with the browser’s default styles. 2. Selector Specificity - Which selectors take precedence over which. 3. Source Order - Order in which styles are declared in the stylesheet.</description>
+    </item>
+    
+    <item>
+      <title>CSS Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/</guid>
+      <description>Understand Specificity Understanding Specificity is essential. You can go a long way without an understanding of stylesheet origin because 99% of the styles on your website come from the same origin. But if you don’t understand specificity, it’ll come back to bite you.
+Inline Styles If you use an HTML style attribute to apply styles, the declarations are applied only to that element. - These are, in effect, “scoped” declarations, which override any declarations applied from your stylesheet or a &amp;lt;style&amp;gt; tag.</description>
+    </item>
+    
+    <item>
+      <title>CSS Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/</guid>
+      <description>Terminology of CSS Take this code as an example. This is called a declaration. This declaration is made up of a property (color) and a value (black):
+color: black;  Properties aren’t to be confused with attributes , which are part of the HTML syntax. For example, in the element &amp;lt;a href=“#”&amp;gt;&amp;lt;/a&amp;gt;, href is an attribute of the a tag.
+A group of declarations inside curly braces is called a declaration block.</description>
+    </item>
+    
+    <item>
       <title>Exponential Functions</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -90,10 +132,10 @@ Decaying: decreasing by a FIXED percentage.</description>
     
     <item>
       <title>Javascript Fundamentals</title>
-      <link>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/objects_in_js/</link>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/objects_in_js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/objects_in_js/</guid>
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/objects_in_js/</guid>
       <description>Objects in JavaScript &amp;ldquo;Everything is an Object&amp;rdquo; (well, almost)
 Primitives
 - Numbers - Strings - Booleans - Undefined - Null   Variables containing primitives actually hold that data inside the variable itself.  ++++++
@@ -146,6 +188,15 @@ Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldqu
     </item>
     
     <item>
+      <title>CSS Fundamentals</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/</guid>
+      <description>Understanding Stylesheet Origin The Stylesheets you add to your web page aren’t the only ones the browser applies. There are different types, or origins, of stylesheets. Yours are called authors stylesheets; There are also user agent styles, which are the browser’s default styles. - Use agent styles have lower priority, so your styles override them. - Some browsers let users define a user stylesheet. User stylesheets are rarely used and beyond your control, so I’ve left them out for simplicity.</description>
+    </item>
+    
+    <item>
       <title>Dividing Polynomials</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -164,10 +215,10 @@ P(x)/D(x) = Q(x) + R(x)/D(x)
     
     <item>
       <title>Javascript Fundamentals</title>
-      <link>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/functions_in_js/</link>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/functions_in_js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/functions_in_js/</guid>
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/functions_in_js/</guid>
       <description> Functions in JavaScript Function  Functions are also objects in JS A func is an instance of the object type. A function behaves like any other object. We can store functions in a variable. We can pass a function as an argument to another function. We can return a function from another function. =&amp;gt; First Class Functions  </description>
     </item>
     
@@ -198,10 +249,10 @@ Lets you declare all the dependencies you want in a single file.</description>
     
     <item>
       <title>Javascript Fundamentals</title>
-      <link>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/constructors/</link>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/constructors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/constructors/</guid>
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/constructors/</guid>
       <description>Constructors in JS! Callback Functions - Functions that we pass into functions that will call them later.
 (Function)Constructors
 Var Person = function(name, yearOfBirth, Job) { this.name; this.yearOfBirth; this.job }
@@ -262,10 +313,10 @@ Answer:  The graph wouldn&amp;rsquo;t cross the x-axis, since intercepts are Rea
     
     <item>
       <title>Javascript Fundamentals</title>
-      <link>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/closures/</link>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/closures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/closures/</guid>
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/closures/</guid>
       <description> Closures in JS  An inner function has always access to the variables and parameters of its outer functions, even after the outer function has returned.  </description>
     </item>
     
@@ -283,10 +334,10 @@ Let f(x) be a polynomial with real number coefficients { If &#39;a+bi&#39; is a 
     
     <item>
       <title>Javascript Fundamentals</title>
-      <link>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/call_apply_and_bind_methods/</link>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/call_apply_and_bind_methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/call_apply_and_bind_methods/</guid>
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/call_apply_and_bind_methods/</guid>
       <description>Bind, Call, and Apply in JS Call:  Set the ‘this’ variable to another object. Borrow a method from another object.  Apply:  The apply() method is used to write methods, which can be used on different objects. It is different from the function call() because it takes arguments as an array.  Bind:  Similar to call. Lets us set the ‘this’ variable explicitly. “Bind doesn’t immediately call the function, but generates a copy of the function so that we can store it somewhere” Bind method returns a function.</description>
     </item>
     
@@ -306,10 +357,10 @@ f(x) = (2x+5)/(x-2)  When x is close to 2, x-2 is close to 0, so dividing by a v
     
     <item>
       <title>Javascript Dice Game Project</title>
-      <link>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/javascript-past-projects/dice_game/</link>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/dice_game/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/javascript-past-projects/dice_game/</guid>
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/dice_game/</guid>
       <description>NOTE: HTML and CSS were already configured when we did worked on the Javascript. Make your own version :).
 Dice Game — What we learned from this:
  How to create our fundamental game variables; How to generate a random number;  “Math.random()” “Math.floor(Math.random() * 6) + 1”  To get a random number between 1 - 6.   How to manipulate the DOM;  We can do DOM manipulations is the ‘document’ object.</description>

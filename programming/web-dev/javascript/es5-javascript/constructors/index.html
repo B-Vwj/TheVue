@@ -1,0 +1,3075 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="description" content="Constructors in JavaScript">
+<meta name="author" content="Brandon Vue">
+
+    <link rel="icon" href="/TheVue/images/favicon.png" type="image/png">
+
+    <title>Javascript Fundamentals :: TheVue</title>
+
+    
+    <link href="/TheVue/css/nucleus.css?1585277313" rel="stylesheet">
+    <link href="/TheVue/css/fontawesome-all.min.css?1585277313" rel="stylesheet">
+    <link href="/TheVue/css/hybrid.css?1585277313" rel="stylesheet">
+    <link href="/TheVue/css/featherlight.min.css?1585277313" rel="stylesheet">
+    <link href="/TheVue/css/perfect-scrollbar.min.css?1585277313" rel="stylesheet">
+    <link href="/TheVue/css/auto-complete.css?1585277313" rel="stylesheet">
+    <link href="/TheVue/css/atom-one-dark-reasonable.css?1585277313" rel="stylesheet">
+    <link href="/TheVue/css/theme.css?1585277313" rel="stylesheet">
+    <link href="/TheVue/css/hugo-theme.css?1585277313" rel="stylesheet">
+    
+
+    <script src="/TheVue/js/jquery-3.3.1.min.js?1585277313"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/TheVue/programming/web-dev/javascript/es5-javascript/constructors/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://b-vwj.github.io/TheVue/">
+  <div style="weight = 400">TheVue</div>
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/TheVue/js/lunr.min.js?1585277313"></script>
+<script type="text/javascript" src="/TheVue/js/auto-complete.js?1585277313"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/b-vwj.github.io\/TheVue\/";
+    
+</script>
+<script type="text/javascript" src="/TheVue/js/search.js?1585277313"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/" title="Programming Notes" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/TheVue/programming/">
+          Programming Notes
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/java/" title="Java Documentation" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/programming/java/">
+          Java
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/java/spring-boot/" title="Spring Boot Documentation" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/programming/java/spring-boot/">
+          Spring Boot
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/java/spring-boot/spring_mvc/" title="Spring Boot Documentation" class="dd-item ">
+        <a href="/TheVue/programming/java/spring-boot/spring_mvc/">
+        Spring MVC
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/java/spring-boot/maven/" title="Spring Boot Documentation" class="dd-item ">
+        <a href="/TheVue/programming/java/spring-boot/maven/">
+        Maven
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/ui-ux/" title="User Interface(UI) &amp; User Experience(UX) Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/programming/ui-ux/">
+          UI and UX Notes
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/web-dev/" title="Web Development Notes" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/TheVue/programming/web-dev/">
+          Web Dev Notes
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/web-dev/html/" title="Hyper Text Markup Language Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/programming/web-dev/html/">
+          HTML
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/" title="CSS" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/programming/web-dev/css/css-in-depth/">
+          CSS
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/" title="CSS in Depth" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/">
+          CSS in Depth
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/" title="CSS Fundamentals" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/">
+        The Cascade
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/" title="CSS Fundamentals" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/">
+        Specificity in CSS
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/" title="CSS Fundamentals" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/">
+        Terminologies
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/" title="CSS Fundamentals" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/">
+        Stylesheet Origins
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/web-dev/css/tips/" title="CSS Tips" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/programming/web-dev/css/tips/">
+          CSS Tips
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/css/tips/sticky_footer/" title="CSS Tips" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/css/tips/sticky_footer/">
+        Sticky Footer
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/web-dev/javascript/" title="Javascript Documentation" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/TheVue/programming/web-dev/javascript/">
+          Javascript
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/web-dev/javascript/es5-javascript/" title="Javascript **ES5** Documentation" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/TheVue/programming/web-dev/javascript/es5-javascript/">
+          Javascript ES5
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/javascript/es5-javascript/objects_in_js/" title="Javascript Fundamentals" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/javascript/es5-javascript/objects_in_js/">
+        Javascript Objects
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/javascript/es5-javascript/functions_in_js/" title="Javascript Fundamentals" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/javascript/es5-javascript/functions_in_js/">
+        Javascript Functions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/javascript/es5-javascript/constructors/" title="Javascript Fundamentals" class="dd-item active">
+        <a href="/TheVue/programming/web-dev/javascript/es5-javascript/constructors/">
+        Javascript Constructors
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/javascript/es5-javascript/closures/" title="Javascript Fundamentals" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/javascript/es5-javascript/closures/">
+        Javascript Closures
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/javascript/es5-javascript/call_apply_and_bind_methods/" title="Javascript Fundamentals" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/javascript/es5-javascript/call_apply_and_bind_methods/">
+        Call, Apply, and Bind Methods
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/" title="Past JS Projects" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/">
+          Past ES5/2015 JS Projects
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/dice_game/" title="Javascript Dice Game Project" class="dd-item ">
+        <a href="/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/dice_game/">
+        Dice Game Project
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/programming/web-dev/javascript/es6-javascript/" title="Javascript **ES6/2015** Documentation" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/programming/web-dev/javascript/es6-javascript/">
+          Javascript ES6/2015
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/" title="School Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/">
+          School Notes
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/communications/" title="Communication Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/communications/">
+          Communication
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/communications/fundamentals-of-public-speaking/" title="Fundamentals of Public Speaking" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/communications/fundamentals-of-public-speaking/">
+          Fundamentals of Public Speaking
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/computer-science/" title="Computer Science Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/computer-science/">
+          Computer Science
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/computer-science/data-strutures-and-algorithms/" title="Data Structure and Algorithms" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/computer-science/data-strutures-and-algorithms/">
+          Data Structure and Algorithms
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/english/" title="English Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/english/">
+          English
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/government/" title="Government Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/government/">
+          Government
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/government/american-government-and-politics/" title="American Government and Politics" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/government/american-government-and-politics/">
+          American Government and Politics
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/government/american-government-and-politics/notes/chapter1/" title="American Government and Politics" class="dd-item ">
+        <a href="/TheVue/school-notes/government/american-government-and-politics/notes/chapter1/">
+        Chapter 1 Notes
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/government/american-government-and-politics/glossary/" title="Glossary" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/government/american-government-and-politics/glossary/">
+          Glossary
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/government/american-government-and-politics/glossary/extras/" title="Extra Information" class="dd-item ">
+        <a href="/TheVue/school-notes/government/american-government-and-politics/glossary/extras/">
+        Extras
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/government/economics/" title="Macro-Economics" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/government/economics/">
+          Macro-Economics
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/government/economics/macro-economics/chapter1/" title="Macro-Economics Chapter 1" class="dd-item ">
+        <a href="/TheVue/school-notes/government/economics/macro-economics/chapter1/">
+        Macro-Economics Notes
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/government/economics/macro-economics/terms/" title="Macro-Economics Terms" class="dd-item ">
+        <a href="/TheVue/school-notes/government/economics/macro-economics/terms/">
+        Macro-Economics Terms
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/mathematics/" title="Math Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/mathematics/">
+          Mathematics
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/" title="College Algebra and Pre-calculus" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/mathematics/college-algebra-trig/">
+          College Alebra and Pre-calculus
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/" title="Chapter 3 Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/">
+          Chapter 3 Notes
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/" title="Polynomial Functions and Their Graphs" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/polynomial_funcs_and_their_graphs/">
+        3.1 - Polynomial Functions and Their Graphs
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/" title="Dividing Polynomials" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/">
+        3.2 - Dividing Polynomials
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/real_zeros_of_polynomials/" title="Zeros of Polynomials" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/real_zeros_of_polynomials/">
+        3.3 - Real Zeros of Polynomials
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_numbers/" title="Complex Numbers" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_numbers/">
+        3.4 - Complex Numbers
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_zeros_and_fundamental_theorem_of_algebra/" title="Complex Zeros &amp; Fundamental Theorems of Algebra" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/complex_zeros_and_fundamental_theorem_of_algebra/">
+        3.5 - Complex Zeros &amp; Fundamental Theorems of Algebra
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/rational_functions/" title="Rational Functions" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/rational_functions/">
+        3.6 - Rational Functions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/" title="Chapter 4 Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/">
+          Chapter 4 Notes
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/" title="Exponential Functions" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/">
+        4.1 Exponential Functions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/logarithmic_functions/" title="Logarithmic Functions" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/logarithmic_functions/">
+        4.2 Logarithmic Functions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/laws_of_logs/" title="Laws of Logarithms" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/laws_of_logs/">
+        4.3 Laws of Logarithms
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_and_log_equations/" title="Exponential and Logarithmic Equations" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_and_log_equations/">
+        4.4 Exponential and Logarithmic Equations
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/homework/" title="Algebra and Trig HW" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/mathematics/college-algebra-trig/homework/">
+          Algebra and Trig HW
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter3_hw/" title="Chapter 3 Math HW" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter3_hw/">
+        Chapter 3 Math HW
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter4_hw/" title="Chapter 4 Math HW" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter4_hw/">
+        Chapter 4 Math HW
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/" title="OUTDATED Math Schedule" class="dd-item ">
+        <a href="/TheVue/school-notes/mathematics/college-algebra-trig/homework/attendance/">
+        OUTDATED Math Schedule
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/TheVue/school-notes/science/" title="Science Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/TheVue/school-notes/science/">
+          Science
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/Programming/Web%20Dev/Javascript/ES5%20JavaScript/constructors.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/programming/'>Programming Notes</a> > <a href='/TheVue/programming/web-dev/'>Web Development Notes</a> > <a href='/TheVue/programming/web-dev/javascript/'>Javascript Documentation</a> > <a href='/TheVue/programming/web-dev/javascript/es5-javascript/'>Javascript **ES5** Documentation</a> > Javascript Fundamentals
+          
+         
+          
+         
+          
+         
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#constructors-in-js">Constructors in JS!</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Javascript Fundamentals
+            </h1>
+          
+
+        
+
+
+
+
+
+<h2 id="constructors-in-js">Constructors in JS!</h2>
+
+<p>Callback Functions
+- Functions that we pass into functions that will call them later.</p>
+
+<p>(Function)Constructors</p>
+
+<p>Var Person = function(name, yearOfBirth, Job) {
+    this.name;
+    this.yearOfBirth;
+    this.job
+}</p>
+
+<p>Inheritance
+- Add all methods and properties into the constructor’s prototype property.</p>
+
+<p>Constructor: Person</p>
+
+<p>We’re adding the method:</p>
+
+<pre><code>this.calcAge = func() {
+	console.log(2020 - this.yearOfBirth)
+}
+</code></pre>
+
+<p>To the person constructor, and now, it is inherited by all objects.
+Example:</p>
+
+<pre><code>var John = new Person(‘John’, 1990, ‘teacher’);
+</code></pre>
+
+<p>The func above will inherit <code>calcAge</code> method because we defined the variable as a <strong><em>new</em></strong> object that also has <code>Person()</code>, in which we also pass the parameters:
+<code>’John’, 1990, ‘teacher’</code>.</p>
+
+<p>So now when we create new objects like…
+<code>var Jane = new Person(‘Jane’, 1969, ‘designer’);</code>
+It works the same!</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/dice_game/" title="Javascript Dice Game Project"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/" title="Past JS Projects" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/TheVue/js/clipboard.min.js?1585277313"></script>
+    <script src="/TheVue/js/perfect-scrollbar.min.js?1585277313"></script>
+    <script src="/TheVue/js/perfect-scrollbar.jquery.min.js?1585277313"></script>
+    <script src="/TheVue/js/jquery.sticky.js?1585277313"></script>
+    <script src="/TheVue/js/featherlight.min.js?1585277313"></script>
+    <script src="/TheVue/js/highlight.pack.js?1585277313"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/TheVue/js/modernizr.custom-3.6.0.js?1585277313"></script>
+    <script src="/TheVue/js/learn.js?1585277313"></script>
+    <script src="/TheVue/js/hugo-learn.js?1585277313"></script>
+
+    <link href="/TheVue/mermaid/mermaid.css?1585277313" rel="stylesheet" />
+    <script src="/TheVue/mermaid/mermaid.js?1585277313"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

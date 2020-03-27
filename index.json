@@ -49,6 +49,20 @@
 	"content": " Computer Science Terms File A computer file is a computer resource for recording data discretely in a computer storage device. Usually organized in a file system, Files can be edited and transferred through the internet on that particular computer system.\nComes in multiple types depending on its purpose: - Picture - Written Message - Video - Program\nAnd many more!\nBy using computer programs, a person can:\n open read change save close  a computer file.\nComputer files may be:\n reopened modified copied  an arbitrary number of times\nFile System Controls how data is stored and received.\nThings are usually set up as\u0026hellip;\nUser \u0026lt;---\u0026gt; Application \u0026lt;---\u0026gt; Operating System(OS) \u0026lt;---\u0026gt; Hardware\nIn a hierarchical file system (that is, one in which files and directories are organized in a manner that resembles a tree).\nA directory contained inside another directory is called a subdirectory.\nThe terms parent and child are often used to describe the relationship between a subdirectory and the directory in which it is cataloged, the latter being the parent.\nThe top-most directory in such a filesystem, which does not have a parent of its own, is called the root directory.\nDirectory (dir) In computing, a directory is a file system cataloging structure which contains references to other computer files, and possibly other directories.\nOn many computers, directories are known as folders, or drawers.\n"
 },
 {
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/",
+	"title": "CSS in Depth",
+	"tags": [],
+	"description": "Notes/Documentation for CSS",
+	"content": " Introduction to CSS “CSS is not a programming language, strictly speaking, but it does require abstract thoughts.”\nMost Fundamental Principles: - The Cascade - The Box Model - Wide array of unit types available\nThe HTML code we’ll be basing the CSS code about is:\n\u0026lt;!DOCTYPE HTML\u0026gt; \u0026lt;head\u0026gt; \u0026lt;link href=“styles.css” rel=“stylesheet” type=“text/css” /\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt;\u2028\u0026lt;header class=“page-header”\u0026gt; \u0026lt;h1 id=“page-title” class=“title”\u0026gt;Wombat Coffee Roasters\u0026lt;/h1\u0026gt; \u0026lt;nav\u0026gt; \u0026lt;ul\u0026gt; \u0026lt;li\u0026gt;\u0026lt;a href=“/“\u0026gt;Home\u0026lt;/a\u0026gt;\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;\u0026lt;a href=“/coffees”\u0026gt;Coffees\u0026lt;/a\u0026gt;\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;\u0026lt;a href=“/brewers”\u0026gt;Brewers\u0026lt;/a\u0026gt;\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;\u0026lt;a href=“/specials” class=“featured”\u0026gt;Specials\u0026lt;/a\u0026gt;\u0026lt;/li\u0026gt; \u0026lt;/ul\u0026gt; \u0026lt;/nav\u0026gt; \u0026lt;/header\u0026gt;\u2028\u0026lt;/body\u0026gt;  "
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/css/tips/sticky_footer/",
+	"title": "CSS Tips",
+	"tags": [],
+	"description": "Keeping your footer stuck to the bottom of your website.",
+	"content": " Sticky Footer for Your Website!  Footer at the bottom of page: For your HTML use\u0026hellip;\n\u0026lt;body\u0026gt; \u0026lt;div id=\u0026quot;page-container\u0026quot;\u0026gt; \u0026lt;div id=\u0026quot;content-wrap\u0026quot;\u0026gt; \u0026lt;!-- all other page content --\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;footer id=\u0026quot;footer\u0026quot;\u0026gt;\u0026lt;/footer\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/body\u0026gt;   For CSS an example to use is\u0026hellip;\n#page-container { position: relative; min-height: 100vh; } #content-wrap { padding-bottom: 2.5rem; /* Footer height */ } #footer { position: absolute; bottom: 0; width: 100%; height: 2.5rem; /* Footer height */ }  The page-container id tag covers the whole page (header, content, and footer), while the content-wrap id tag covers only the content (and possibly the header if you want to include it) while leaving the footer out so that you can position it in its absolute position to the bottom, hence:  bottom: 0;\n"
+},
+{
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/computer-science/data-strutures-and-algorithms/",
 	"title": "Data Structure and Algorithms",
 	"tags": [],
@@ -77,6 +91,13 @@
 	"content": " Le Gouvernement  American Government and Politics   American Government and Politics Notes:   American Government and Politics  Notes for Ch. 1 in here.\n  Glossary  Glossary for terms\n  Extra Information  Glossary for terms\n     Glossary  Glossary for terms\n  Extra Information  Glossary for terms\n     Macro-Economics  Le Macro economique Notes: Macro-Economics Chapter 1 Notes: Exploring MindTap MindTap contains Tools, Apps, and Activities such as: - Interactive Book - Digital Book (highlighting1, notes1, dictionary, flashcards) - Graph Builder (Found in Interactive Book) - Video lessons w/ Quick Quizzes - Adaptive Test Prep. 3 ways to view resources: 1. Week View 1. Unit View 1. List View Accessibility Tools: - Readspeaker App Bar: - StudyHub - Search Bar - Progress App - Full Book App\n  Macro-Economics Chapter 1  Notes: Exploring MindTap MindTap contains Tools, Apps, and Activities such as: - Interactive Book - Digital Book (highlighting1, notes1, dictionary, flashcards) - Graph Builder (Found in Interactive Book) - Video lessons w/ Quick Quizzes - Adaptive Test Prep. 3 ways to view resources: 1. Week View 1. Unit View 1. List View Accessibility Tools: - Readspeaker App Bar: - StudyHub - Search Bar - Progress App - Full Book App\n   Macro-Economics Terms  Book Recommendations (by Professor) Adam Smith - \u0026ldquo;Wealth of Nations\u0026rdquo; Terms Oikonomos: Greek work that then became\u0026hellip; Economics! Efficiency: Society is getting the maximum benefits from it\u0026rsquo;s scarce resources (Size of Pie) Equality: Benefits are distributed uniformly among society\u0026rsquo;s members (Division of Pie slices) Margin: Edge (knife edge? idr lol) Economics: \u0026ldquo;How society manages its scarce resources\u0026rdquo; - (Alfred Marital): \u0026ldquo;A study of mankind in the ordinary business of life.\n    "
 },
 {
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/html/",
+	"title": "Hyper Text Markup Language Notes",
+	"tags": [],
+	"description": "Notes/Documentation for HTML",
+	"content": " HTML notes are in here! "
+},
+{
 	"uri": "https://b-vwj.github.io/TheVue/programming/java/",
 	"title": "Java Documentation",
 	"tags": [],
@@ -84,7 +105,7 @@
 	"content": ""
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/",
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/",
 	"title": "Javascript **ES5** Documentation",
 	"tags": [],
 	"description": "Javascript ES5 Documentation/Notes",
@@ -123,7 +144,7 @@
 	"title": "Programming Notes",
 	"tags": [],
 	"description": "",
-	"content": " Programming Notes Programming Notes will most likely be tossed in here\u0026hellip;\n Java Documentation  Java Documentation/Notes\n  Spring Boot Documentation  Spring Boot Documentation What is Spring Boot? Spring Boot is the \u0026ldquo;Spring framework\u0026rdquo; application that is coupled with \u0026ldquo;Bootstrap\u0026rdquo;. Allowing the user to Bootstrap the Spring Application. Official definition: \u0026ldquo;Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can \u0026lsquo;just run\u0026rsquo;.\u0026rdquo; Key Take Aways\u0026hellip; Creating Spring Based Applications (from Spring Boot). Stand-Alone (Runs on its own). Production grade (deployable to prod). \u0026lsquo;just runnable\u0026rsquo;. Easy way to get things working!\n  Spring Boot Documentation  Spring MVC\n   Spring Boot Documentation  Maven \u0026ldquo;When building our Spring Application, we need to manage our dependencies.\u0026rdquo; \u0026ldquo;We need to import the \u0026lsquo;Jar\u0026rsquo;s that is required for Spring Applications to work.\u0026rdquo; Usually in Java, you\u0026rsquo;d take the JARs and add it to the CLASSPATH We won\u0026rsquo;t do this. We\u0026rsquo;ll use Maven instead! What is Maven? Maven: Build Independency Management Tool Lets you declare all the dependencies you want in a single file.\n     Javascript Documentation  Javascript Documentation/Notes\n  Javascript **ES5** Documentation  Javascript ES5 Documentation/Notes\n  Javascript Fundamentals  Objects in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript Fundamentals  Functions in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript Fundamentals  Constructors in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript Fundamentals  Closures in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript Fundamentals  3 Methods in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript **ES6/2015** Documentation  Javascript ES6/2015 Documentation/Notes\n    User Interface(UI) \u0026amp; User Experience(UX) Notes  Notes about User Interface and User Experience\n   Web Development Notes  Notes/Documentation for Web Development\n   "
+	"content": " Programming Notes Programming Notes will most likely be tossed in here\u0026hellip;\n Java Documentation  Java Documentation/Notes\n  Spring Boot Documentation  Spring Boot Documentation What is Spring Boot? Spring Boot is the \u0026ldquo;Spring framework\u0026rdquo; application that is coupled with \u0026ldquo;Bootstrap\u0026rdquo;. Allowing the user to Bootstrap the Spring Application. Official definition: \u0026ldquo;Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can \u0026lsquo;just run\u0026rsquo;.\u0026rdquo; Key Take Aways\u0026hellip; Creating Spring Based Applications (from Spring Boot). Stand-Alone (Runs on its own). Production grade (deployable to prod). \u0026lsquo;just runnable\u0026rsquo;. Easy way to get things working!\n  Spring Boot Documentation  Spring MVC\n   Spring Boot Documentation  Maven \u0026ldquo;When building our Spring Application, we need to manage our dependencies.\u0026rdquo; \u0026ldquo;We need to import the \u0026lsquo;Jar\u0026rsquo;s that is required for Spring Applications to work.\u0026rdquo; Usually in Java, you\u0026rsquo;d take the JARs and add it to the CLASSPATH We won\u0026rsquo;t do this. We\u0026rsquo;ll use Maven instead! What is Maven? Maven: Build Independency Management Tool Lets you declare all the dependencies you want in a single file.\n     User Interface(UI) \u0026amp; User Experience(UX) Notes  Notes about User Interface and User Experience\n   Web Development Notes  Notes/Documentation for Web Development\n  Hyper Text Markup Language Notes  Notes/Documentation for HTML\n   CSS  Notes/Documentation for CSS\n  CSS in Depth  Notes/Documentation for CSS\n  CSS Fundamentals  What is the Cascade?\n   CSS Fundamentals  Specificity\n   CSS Fundamentals  CSS Terminologies\n   CSS Fundamentals  CSS Origin\n     CSS Tips  Cascade Style Sheets Tips and Tricks\n  CSS Tips  Keeping your footer stuck to the bottom of your website.\n    Javascript Documentation  Javascript Documentation/Notes\n  Javascript **ES5** Documentation  Javascript ES5 Documentation/Notes\n  Javascript Fundamentals  Objects in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript Fundamentals  Functions in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript Fundamentals  Constructors in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript Fundamentals  Closures in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript Fundamentals  3 Methods in JavaScript\n  Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Past JS Projects  Projects\n  Javascript Dice Game Project  Dice Game built with Javascript\n     Javascript **ES6/2015** Documentation  Javascript ES6/2015 Documentation/Notes\n     "
 },
 {
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/",
@@ -175,6 +196,41 @@
 	"content": "Homework Problems for Chapter 4  All of these are due on the day of the Chapter 4 Test\nSection 4.1 Read pages 328 – 336 On pages 336 – 340 Do problems 1, 3, 5, 7, 11, 15, 19, 21, 39, 65, 67, 75\nSection 4.2 Read pages 342 – 349 On pages 349 – 351 Do problems 3, 5, 7, 9, 11, 13, 15, 19, 21, 25, 29, 33, 35, 37, 39, 79\nSection 4.3 Read pages 352 – 356 On pages 356 – 357 Do problems 1, 3, 7, 9,11, 13, 15, 21, 23, 27, 33, 41,43, 45, 49, 51, 55, 63\nSection 4.4 Read pages 368 – 366 On pages 366 – 368 Do problems 1, 5, 13, 17, 21, 25, 27, 31, 33, 39, 41, 43, 47, 49, 67, 69, 71, 77\nSection 4.5 Read pages 369 – 379 On pages 379 – 381 Do problems 1, 3, 7, 9, 11, 15, 17, 21, 2\n"
 },
 {
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/",
+	"title": "CSS",
+	"tags": [],
+	"description": "Notes/Documentation for CSS",
+	"content": " CSS "
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/",
+	"title": "CSS Fundamentals",
+	"tags": [],
+	"description": "What is the Cascade?",
+	"content": " The Cascade Fundamentally, CSS is about declaring rules: Under various conditions, we want certain things to happen.\nWhen declarations conflict, the cascade considers three things to resolve the difference: 1. Stylesheet Origin - Where the styles come from. Your styles are applied in conjunction with the browser’s default styles. 2. Selector Specificity - Which selectors take precedence over which. 3. Source Order - Order in which styles are declared in the stylesheet.\n“Flowchart” Conflicting Declarations =\u0026gt; Different origin or importance? - Yes: Use declaration with higher-priority origin - No: Move onto the next step =\u0026gt;\nIs one an inline style? (Scope) - Yes: Use inline declaration. - No: Move onto next step =\u0026gt;\nDo Selectors have different specificity? - Yes: Use declaration with higher specificity. - No: Move onto next step =\u0026gt;\nUse declaration that comes later in the source-order.\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/",
+	"title": "CSS Fundamentals",
+	"tags": [],
+	"description": "Specificity",
+	"content": " Understand Specificity Understanding Specificity is essential. You can go a long way without an understanding of stylesheet origin because 99% of the styles on your website come from the same origin. But if you don’t understand specificity, it’ll come back to bite you.\nInline Styles If you use an HTML style attribute to apply styles, the declarations are applied only to that element. - These are, in effect, “scoped” declarations, which override any declarations applied from your stylesheet or a \u0026lt;style\u0026gt; tag. Inline styles have no selectors because they are applied directly to the element they target. - To override inline declarations in your stylesheet, you’ll need to add an !important to the declaration, shifting it into a higher-priority origin. If the Inline styles are marked important, then nothing can override them.\nSelector Specificity An ID selector (I.E. #nav) has a higher specificity than a class selector. In fact, a single ID has a higher specificity than a selector with any number of classes.Similarly, a class selector has a higher specificity than a tag selector (also called a type selector).\nThe exact rules of specificity are: 1. If a selector has more IDs, it wins (that is, it’s more specific) 2. If that results in a tie, the selector with the most classes wins. 3. If that results in a tie, the selector with the most tag names wins.\nConsider the example below:\n/* 1) Four tags */ Html body header h1 { color: blue; } /* 2) Three tags and one class */ Body header .page-header h1 { color: orange; } /* 3) Two classes */ .page-header .title { color: green; } /* 4) One ID */ #page-title { color: red; }  The most specific selector here is 4, with one ID, so its color declaration of red is applied to the title. The next specific is 3, with two class names. This would be applied if the ID selector (4) was absent. Selector 3 has a higher specificity than selector (2), despite its length: two classes are more specific than one class. Finally, 1 is the least specific, with four element types (that is, tag names) but no IDs nor Classes. - Pseudo-class Selectors (for example, :hover) and attribute selectors (for example, [type=‘input’]) each have the same specificity as a class selector. The universal selector (*) and combinators (\u0026gt;, +, ~) have no effect on specificity.\nSpecificity is a simple concept, however, if you don’t understand specificity, you can drive yourself mad trying to figure out why one rule works and another doesn’t.\nNotation for Specificity A common way to indicate specificity is in a number form, often with between each number. For example, ”1,2,2” (ID, Class, Tag) indicates a specificity of one ID, two Classes, and two Tags. IDs having the highest priority are listed first, followed by classes, then tags.\nNote:\u2028If you happen to use VS Code like I do, you can hover over the selector in your CSS stylesheet to see the specificity. - The writer of this site. \u2028\nOccasionally, people use a four-number notation with a 0 or 1 in the most significant digit to represent whether a declaration is applied via inline styles. In this case, it would be ”1, 0, 0, 0” (Inline, ID, Class, Tag). This would override styles applied via selectors.\nSpecificity Considerations Consider the three different fixes we can apply:\n_Fix One: Adding the !important annotation_\u2028 /* Possible Fix One */ #main-nav a { color: white; background-color: #13a4a4; padding: 5px; border-radius: 2px; text-decoration: none; } .featured { background-color: orange !important; /* Now a higher-priority origin */ }  Using !important is easy for quick fixes. However, it’s a naive fix. It can cause you problems down the road. If you start adding !important to multiple declarations, what happens when you need to trump something already set to important?\nWhen you give several declarations an !important, then the origins match and the regular specificity rules apply. This ultimately will leave you back where you started; once you introduce an !important, more are likely to follow.\nFix Two: Increasing the specificity to override the one overriding (lol). /* Possible Fix Two */ /* Specificity remains 1,0,1 */ #main-nav a { color: white; background-color: #13a4a4; padding: 5px; border-radius: 2px; text-decoration: none; } /* Specificity increase to 1,1,0 */ #main-nav .featured { background-color: orange; /* !important annotation is no longer necessary */ }  This fix also works. Now, your selector has one ID and one Class, giving it a specificity of “1,1,0”, which is higher than the #main-nav a selector (a specificity of “1,0,1”), so the background color orange is applied to the element.\nWe can still do better, though. Instead of raising the specificity of the second selector, let’s see if we can lower the specificity of the first. The element has a class as well (here’s a refresher: \u0026lt;ul id=“main-nav” class=“nav”), so you can change your CSS to target the elements by its class name rather than its ID.\nFix Three: Lowering the specificity of the Overriding selector. /* Changing “#main-nav” to “.nav” throughout stylesheet. */ .nav { margin-top: 10px; list-style: none; padding-left: 0; } .nav li { display: inline-block; } /* Lowers the first specificity (1,0,1) =\u0026gt; (0,1,1) */ .nav a { color: white; background-color: #13a4a4; padding: 5px; border-radius: 2px; text-decoration: none; } /* Increases the second specificity (0,1,0) =\u0026gt; (0,2,0) */ .nav .featured { background-color: orange; }  We’ve brought the specificity of the selectors down. The orange background is high enough now to override the teal.\nAs you can see from these examples, specificity tends to become a sort of arms race. This is particularly the case with large projects. It’s generally best to keep specificity low when you can, so when you need to override something, your options are open.\nUnderstanding Source Order The third and final step to resolving the cascade is source order. If the origin and the specificity are the same, then the declaration that appears later in the stylesheet - or appears in a stylesheet included later in the page - takes precedence.\nThis means you can manipulate the source order to style you featured link. If you make the two conflicting selectors equal in specificity, then whichever appears last wins.\nConsider the fourth option shown:\n/* Specificity: (0,1,1) */ .nav a { color: white; background-color: #13a4a4; padding: 5px; border-radius: 2px; text-decoration: none; } /* Specificity: (0,1,1) */ a.featured { background-color: orange; }  Again, we’ve set both selectors to a specificity of “1,1,0”. Source order determines which declaration is applied to your link, resulting in an orange featured button.\nThis addresses the problem we were facing but, potentially, also introduces a new one: although a featured button inside the nav looks correct, what happens if you want to use the featured class on another link elsewhere on the page, outside of your nav? You’ll get an odd blend of styles: the orange background, but not the text color, padding, or border radius of the nav links.\nLink Styles and Source Order You may already know that your selectors for styling links should go in a certain order. That’s because source order affects the cascade.\nThe code below shows styles for links on a page in the “correct” order:\na:link { color: blue; text-decoration: none; } a:visited { color: purple; } a:hover { text-decoration: underline; } a:active { color: red; }  The cascade is the reason this order matters: given the same specificity, later styles override earlier styles. If two or more of these states are three of one element at the same time, the last one can override the others. If the user hovers over a visited link, the hover styles take precedence. If the user activates the link (that is, clicks it) while hovering over it, the active styles take precedence.\nA helpful mnemonic to remember this order is LoVe/HAte: - Link - Visited - Hover - Activate\nCascaded Values A declaration that “wins” the cascade is called a cascaded value. There’s at most one cascaded value per property per element.\n Cascaded Value: A value for a particular property applied to an element as a result of the cascade.  If a property is never specified for an element it has no cascaded value for that property.\nTwo Rules of Thumb  Don’t use IDs in your selector. Even one ID ratchets up the specificity a lot. When you need to override the selector, you often don’t have another meaning full ID you can use, so you can wind up having to copy the original selector and add another class to distinguish it from the one you are trying to override. Don’t use !important. This is even more difficult to override than an ID, and once you use it, you’ll need to add it every time you want to override the original declaration - and then you’ll still have to deal with the specificity.  These two rules can be good advice, but don’t cling to them forever. There are exceptions where they can be okay, but never use them in a knee-jerk reaction to win a specificity battle.\n“An important note about importance If you’re creating a JavaScript module for distribution (such as an NPM package),\nI strongly urge you not to apply styles inline via JavaScript if it can be avoided. If you do, you’re forcing developers using your package to either accept your styles exactly or use !important for every property they want to change.\nInstead, include a stylesheet in your package. If your component needs to make style changes dynamically, it’s almost always preferable to use JavaScript to add and remove classes to the elements. Then users can use your stylesheet, and they have the option to edit it however they like without battling specificity.”\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/",
+	"title": "CSS Fundamentals",
+	"tags": [],
+	"description": "CSS Terminologies",
+	"content": " Terminology of CSS Take this code as an example. This is called a declaration. This declaration is made up of a property (color) and a value (black):\ncolor: black;  Properties aren’t to be confused with attributes , which are part of the HTML syntax. For example, in the element \u0026lt;a href=“#”\u0026gt;\u0026lt;/a\u0026gt;, href is an attribute of the a tag.\nA group of declarations inside curly braces is called a declaration block. A declaration block is preceded by a selector (in this case, body):\nBody { color: block; font-family: Helvetica, Sans-serif; }  Together, the selector and declaration block are called a ruleset. A ruleset is called a rule, although, rule is rarely used so precisely and is usually used in the plural to refer to a broader set of styles.\nFinally, at-rules are language constructs beginning with an “@“ (at) symbol. For examples: - @Import rules - @media queries\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/css/tips/",
+	"title": "CSS Tips",
+	"tags": [],
+	"description": "Cascade Style Sheets Tips and Tricks",
+	"content": "Tips and Tricks picked up along the way and have been documented here. Free to pick up and use!\n"
+},
+{
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_functions/",
 	"title": "Exponential Functions",
 	"tags": [],
@@ -196,21 +252,14 @@
 	"content": " Preferences1 - Individuals\u0026rsquo; choices, reflecting economic situation(s), religious values, ethnic identity, or other valued interests.\n Bargaining (process) - A form of negotiation in which two or more parties who disagree propose exchanges and concessions to find a course of acceptable collective action.\n Compromise (outcome) -\n Politics -\n Social Choices \u0026amp; Conflict -\n Authority (a right to decide!) - \u0026ldquo;Recognized right to make a particular decision.\u0026rdquo;\n Power (the ability to decide) - \u0026ldquo;Actual influence over actions.\u0026rdquo;\n  "
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/es6-javascript/",
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es6-javascript/",
 	"title": "Javascript **ES6/2015** Documentation",
 	"tags": [],
 	"description": "Javascript ES6/2015 Documentation/Notes",
 	"content": "Notes and Documentation taken about ES6/2015 Javascript.\nES6 Features - Variable Declarations with `let` and `const` - Blocks and IIFEs - Strings - Arrow Functions - Restructuring - Arrays - The Spread Operator - Rest and Default Parameters - Maps - Classes and subclasses - Promises _ Native Modules  "
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/",
-	"title": "Javascript Documentation",
-	"tags": [],
-	"description": "Javascript Documentation/Notes",
-	"content": " ++++++++++++++++++++Javascript Notes++++++++++++++++++++\nHistory of JavaScript 1996 - Changed from LiveScript to JavaScript. JavaScript has almost nothing to do with Java.\u20281997 - ES1 (ECMAScript 1) became the first version of JS language standard\u2028.\n- ECMAScript: The language standard. - JavaScript: The language in practice.  2009 - ES5 (ECMAScript 5) was released with lots of new features.\n2015 - ES6/ES2015 (ECMAScript 2015) was released: The biggest update to the language ever!\n2015 - Changed to an annual release cycle\n2016/2017/2018/2019/… - Release of ES2016 / ES2017 / ES2018 / ES2019 and so forth!\nState of each version so far!  (As of March 17th, 2020) ES5:\u2028- Fully supported by all browsers - Ready to be used today!\nES6/ES2015 - ES8/ES2017:\u2028- Well support in all modern browsers - No support in older browsers - Can use most features in prod w/ transpiling and polyfilling (converting to ES5) - ES6 Compatibility Table\nES9/2018 - ES10/2019 and so on…: - Future versions, together called ESNext; - Some features supported in modern browsers. - Can already use some features in production w/ transpiring and polyfilling.\nWhat each version contains ES5:\u2028- JS fundamentals; - How the language works; - DOM manipulation project; - Advanced language features; - Huge Real Project;\nES6+:\n ES6/ES2015 introduction; Asynchronous JS; AJAX and API calls; Modern Dev Setups (Webpack and Babel) Huge Real Project;  —\n“Our code” =\u0026gt; JS Engine “Program that executes JS code” (Google Engine; ReNote, SpiderMonkey, JS Core)\n"
-},
-{
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/objects_in_js/",
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/objects_in_js/",
 	"title": "Javascript Fundamentals",
 	"tags": [],
 	"description": "Objects in JavaScript",
@@ -238,6 +287,13 @@
 	"content": " Spring Boot Documentation Things to know  Spring Initializr: Fast way to pull in dependencies you need for an application and does most of the work for you.\n Example dependencies: Spring Web: Thymeleaf Spring Boot DevTools  Maven comes with a pom.xml file\n Gradle comes with the build.gradle file\n Language is chosen with an \u0026lsquo;id\u0026rsquo; (i.e. \u0026ldquo;id 'java'\u0026rdquo;) (done under plugins)\n Spring framework \u0026amp; dependency management are also under plugins.\n  Terms (of options)  Group: Project Coordinates; id of the project\u0026rsquo;s group; Infers Root package name; Artifact: Project Coordinates; id of the Artifact; Infers name of project; Name: Display Name of Project; Determines name of Spring Boot Application; Description: Description of project; Package name: Root package of the project; Default is [Group]() attribute; Packaging: Project Packaging; Either Java Archive (JAR) or Web Application Archive (WAR); Java Version: Which version of Java to use; Language: Which programming language to use;  Web Controllers HTTP(S) requests are handled by a controller.\n"
 },
 {
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/",
+	"title": "CSS Fundamentals",
+	"tags": [],
+	"description": "CSS Origin",
+	"content": " Understanding Stylesheet Origin The Stylesheets you add to your web page aren’t the only ones the browser applies. There are different types, or origins, of stylesheets. Yours are called authors stylesheets; There are also user agent styles, which are the browser’s default styles. - Use agent styles have lower priority, so your styles override them. - Some browsers let users define a user stylesheet. User stylesheets are rarely used and beyond your control, so I’ve left them out for simplicity.\nThere is an exception to the style origin rules: declarations that are marked as important. A declaration can be marked important by adding !important to the end of the declaration, before the semicolon:\nColor: red !important;  Declarations marked !important are treated as a higher-priority origin, so the order of preference, in decreasing order, is this: 1. Author important 2. Author 3. User Agent\n Note: The cascade independently resolves conflicts for every property of every element on the page.  The concept of style origin will come into play when we get to transitions and animations because they introduce more origins to this list.   "
+},
+{
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/dividing_polynomials/",
 	"title": "Dividing Polynomials",
 	"tags": [],
@@ -245,7 +301,14 @@
 	"content": " Notes: Terms P(x): Polynomial function.\nD(x): - The Divider (What you used to divide the polynomial function). \u0026ldquo;D is for Divider\u0026rdquo;.\nR(x): - The Reminder (Quantity that is left over after the division operation).\nOther Things To Remember:  The two ways to write a Deperessed Polynomial :\n*P(x) = D(x)*Q(x)+R(x)*\nOR\nP(x)/D(x) = Q(x) + R(x)/D(x)\n  Ways to divide Polynomials  Long division  OR\n Synthetic division  Theorems The Remainder Theorem: If a polynomial P(x) is divided by (x-c), then the remainder \u0026reg; is P\u0026copy;.\nProof:\nP(x) = Q(x)(x-c) + r P(c) = Q(c)(c-c) + r P(c) = Q(c)(0) + r P(c) = r  We can essentially rewrite P(x) = Q(x)(x-c) + r to P(x) = Q(x)(x-c) + P(c)\nThe Factor Theorem: If P(x) is a polynomial and P\u0026copy; = 0; Then (x-c) is a factor of P(x). - That is\u0026hellip; P(x) = Q(x)(x-c)\n"
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/functions_in_js/",
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/",
+	"title": "Javascript Documentation",
+	"tags": [],
+	"description": "Javascript Documentation/Notes",
+	"content": " ++++++++++++++++++++Javascript Notes++++++++++++++++++++\nHistory of JavaScript 1996 - Changed from LiveScript to JavaScript. JavaScript has almost nothing to do with Java.\u20281997 - ES1 (ECMAScript 1) became the first version of JS language standard\u2028.\n- ECMAScript: The language standard. - JavaScript: The language in practice.  2009 - ES5 (ECMAScript 5) was released with lots of new features.\n2015 - ES6/ES2015 (ECMAScript 2015) was released: The biggest update to the language ever!\n2015 - Changed to an annual release cycle\n2016/2017/2018/2019/… - Release of ES2016 / ES2017 / ES2018 / ES2019 and so forth!\nState of each version so far!  (As of March 17th, 2020) ES5:\u2028- Fully supported by all browsers - Ready to be used today!\nES6/ES2015 - ES8/ES2017:\u2028- Well support in all modern browsers - No support in older browsers - Can use most features in prod w/ transpiling and polyfilling (converting to ES5) - ES6 Compatibility Table\nES9/2018 - ES10/2019 and so on…: - Future versions, together called ESNext; - Some features supported in modern browsers. - Can already use some features in production w/ transpiring and polyfilling.\nWhat each version contains ES5:\u2028- JS fundamentals; - How the language works; - DOM manipulation project; - Advanced language features; - Huge Real Project;\nES6+:\n ES6/ES2015 introduction; Asynchronous JS; AJAX and API calls; Modern Dev Setups (Webpack and Babel) Huge Real Project;  —\n“Our code” =\u0026gt; JS Engine “Program that executes JS code” (Google Engine; ReNote, SpiderMonkey, JS Core)\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/functions_in_js/",
 	"title": "Javascript Fundamentals",
 	"tags": [],
 	"description": "Functions in JavaScript",
@@ -273,7 +336,14 @@
 	"content": ""
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/constructors/",
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/",
+	"title": "Web Development Notes",
+	"tags": [],
+	"description": "Notes/Documentation for Web Development",
+	"content": " HTML, CSS, and JavaScript notes are in here! Ever wanted to learn about Hyper Text Markup Language (HTML)?\nPerhaps Cascade Style Sheet (CSS)?\nOr maybe JavaScript (JS)? we have both ES5 and ES6+ notes!\nYou\u0026rsquo;ve come to the right place!\n"
+},
+{
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/constructors/",
 	"title": "Javascript Fundamentals",
 	"tags": [],
 	"description": "Constructors in JavaScript",
@@ -285,13 +355,6 @@
 	"tags": [],
 	"description": "4.3 Notes",
 	"content": " Notes: Terms The Product Rule:\n*loga(x * y) = loga(x) + loga(y)*\n It\u0026rsquo;s just a rewritten form of:  *ar * as = ar + s*  The Quotient Rule:\nloga(x / y) = loga(x) - loga(y)\n It\u0026rsquo;s just a rewritten form of:  ar / as = ar - s  The Power Rule:\n*loga(xc) = C * loga(x)*\n It\u0026rsquo;s just a rewritten form of:  *(ar)s = ar * s*  Theorems/Formulas The Change of Base Formula:  logab = ln(b) / ln(a) = log(b) / log(a)\n Proof:  log3(157) = ln(157) / ln(3) ≈ 4.6   AND\n More Proof:  log416 = ln(16) / ln(4) ≈ 2   Logs of reciprocals are opposite:  For any value of x, logax = -loga(1 / x)\n Proof of Inverse: =\u0026gt; loga(1 / x) = loga1 - loga(x)  =\u0026gt; loga(1 / x) = 0 - loga(x)\n=\u0026gt; -loga(x)\nlogab = 1 / logba\n More Proof: =\u0026gt; log255 = 0.5   =\u0026gt; log525 = 2\n"
-},
-{
-	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/",
-	"title": "Web Development Notes",
-	"tags": [],
-	"description": "Notes/Documentation for Web Development",
-	"content": " HTML Tips: CSS Tips:  Footer at the bottom of page: For your HTML use\u0026hellip;\n\u0026lt;body\u0026gt; \u0026lt;div id=\u0026quot;page-container\u0026quot;\u0026gt; \u0026lt;div id=\u0026quot;content-wrap\u0026quot;\u0026gt; \u0026lt;!-- all other page content --\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;footer id=\u0026quot;footer\u0026quot;\u0026gt;\u0026lt;/footer\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/body\u0026gt;   For CSS an example to use is\u0026hellip;\n#page-container { position: relative; min-height: 100vh; } #content-wrap { padding-bottom: 2.5rem; /* Footer height */ } #footer { position: absolute; bottom: 0; width: 100%; height: 2.5rem; /* Footer height */ }  The page-container id tag covers the whole page (header, content, and footer), while the content-wrap id tag covers only the content (and possibly the header if you want to include it) while leaving the footer out so that you can position it in its absolute position to the bottom, hence:  bottom: 0;\nJavascript (JS) Tips: "
 },
 {
 	"uri": "https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/real_zeros_of_polynomials/",
@@ -315,7 +378,7 @@
 	"content": " Notes: Terms "
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/closures/",
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/closures/",
 	"title": "Javascript Fundamentals",
 	"tags": [],
 	"description": "Closures in JavaScript",
@@ -329,7 +392,7 @@
 	"content": " Notes: Terms Theorems Fundamental Theorem of Algebra:  Every Polynomial function has at least one complex number zero.\nThe Zeros Theorem:  A Polynomial function of degree \u0026lsquo;n\u0026rsquo; has exactly \u0026lsquo;n\u0026rsquo; zeros, provided that a zero of multiplicity \u0026lsquo;k\u0026rsquo; is counted \u0026lsquo;k\u0026rsquo; times.\nComplex Zeros of polynomials with Real Numbers:\nLet f(x) be a polynomial with real number coefficients { If 'a+bi' is a zero of f(x), then a-bi is also a zero of f(x). }  \u0026ldquo;Complex zeros happen in conjugate pairs.\u0026rdquo;\n"
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/call_apply_and_bind_methods/",
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/call_apply_and_bind_methods/",
 	"title": "Javascript Fundamentals",
 	"tags": [],
 	"description": "3 Methods in JavaScript",
@@ -343,14 +406,14 @@
 	"content": " Notes: Terms Rational Function is a function of the form:  R(x) = n(x)/d(x)  where n(x) and d(x) are polynomials.\nDomain: Input \u0026lsquo;range\u0026rsquo; of x.\nRange: Output \u0026lsquo;range\u0026rsquo; of y.\nY-axis: \u0026ldquo;Vertical Asymptote\u0026rdquo;\n Vertical Asymptote:  A Vertical Asymptote for a rational function is a line x=k;  Where \u0026lsquo;k\u0026rsquo; is a zero of the denominator of the function.  Example:\nf(x) = (2x+5)/(x-2)  When x is close to 2, x-2 is close to 0, so dividing by a very small number, which gives us large numbers.\n\u0026rdquo;(1 - 2), (1.5 - 2), (1.75 - 2), (1.9 - 2), (1.999999 - 2)\u0026rdquo;\nX-axis: \u0026ldquo;Horizontal Asymptote\u0026rdquo;\n Horizontal Asymptote:  A Horizontal line \u0026lsquo;y=k\u0026rsquo; such that as x gets larger, R(x) gets closer to \u0026lsquo;k\u0026rsquo;.  In other works\u0026hellip; \u0026ldquo;As x -\u0026gt; ∞; R(x) -\u0026gt; k\u0026rdquo;  Diagonal Asymptote:\nExample:  Given function\u0026hellip; f(x) = (x2 + 2x - 8)/(x-1)  We can divide simplify the expression by completing the division; Which will give us the equation (with a remainder): (x + 3) - (5)/(x-1).\nThe Diagonal Asymptote is then defined by the equation: y = x + 3\nSummary of Vertical and Horizontal asymptotes: Vertical asymptotes are lines \u0026lsquo;x=k\u0026rsquo;; Where k is a zero of d(x) but not of n(x).\n Vertical asymptotes correspond to zeros of the denominator!  Extra rules:\nIf (n(x) has a smaller degree than d(x)) { then 'y = 0' (the x-axis) is a Horizontal Asymptote; } Else if (n(x) and d(x) have the same degree) { then 'y = (a/b)' is the Horizontal Asymptote { Where 'a' and 'b' are the leading coefficients of n(x) and d(x); } } Else if (n(x) has a higher degree than d(x)) { then the Horizontal Asymptote is actually a DIAGONAL Asymptote; }  "
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/javascript-past-projects/",
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/",
 	"title": "Past JS Projects",
 	"tags": [],
 	"description": "Projects",
 	"content": "Notes and Documentation taken about ES5/2015 Javascript.\n"
 },
 {
-	"uri": "https://b-vwj.github.io/TheVue/programming/javascript/es5-javascript/javascript-past-projects/dice_game/",
+	"uri": "https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/javascript-past-projects/dice_game/",
 	"title": "Javascript Dice Game Project",
 	"tags": [],
 	"description": "Dice Game built with Javascript",
