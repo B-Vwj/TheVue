@@ -2,7 +2,7 @@
 title = "Javascript Documentation"
 menutitle = "Javascript"
 description = "Javascript Documentation/Notes"
-weight = 2
+weight = 3
 +++
 
 ++++++++++++++++++++***Javascript Notes***++++++++++++++++++++
