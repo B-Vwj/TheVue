@@ -1,5 +1,5 @@
 +++
-title = "CSS Fundamentals"
+title = "CSS Specificity"
 menutitle = "Specificity in CSS"
 description = "Specificity"
 weight = 2

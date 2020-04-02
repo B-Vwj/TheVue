@@ -1,5 +1,5 @@
 +++
-title = "CSS Fundamentals"
+title = "CSS Cascade"
 menutitle = "The Cascade"
 description = "What is the Cascade?"
 weight = 2

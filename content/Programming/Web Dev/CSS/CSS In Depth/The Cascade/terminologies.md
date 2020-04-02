@@ -1,5 +1,5 @@
 +++
-title = "CSS Fundamentals"
+title = "CSS Terminologies"
 menutitle = "Terminologies"
 description = "CSS Terminologies"
 weight = 2

@@ -1,5 +1,5 @@
 +++
-title = "CSS Fundamentals"
+title = "CSS Origin"
 menutitle = "Stylesheet Origins"
 description = "CSS Origin"
 weight = 3
