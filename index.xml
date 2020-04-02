@@ -20,6 +20,25 @@
     </item>
     
     <item>
+      <title>Chapter 1</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/overview_one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/overview_one/</guid>
+      <description>Overview +++
+ The four parts that make up the cascade
+ The difference between the cascade and inheritance
+ How to control which styles apply to which elements
+ Common misunderstandings about shorthand declarations
++++
+Check the summary after reviewing the rest of chapter 1 tabs
+Summary +++
+ Keep selector specificity under control.
+ Don’t confuse cascade with inheritance.
+ Certain properties are inherited, including those for text, lists, and table borders.</description>
+    </item>
+    
+    <item>
       <title>CSS Tips</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/tips/sticky_footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -79,7 +98,7 @@ Section 4.2 Read pages 342 – 349 On pages 349 – 351 Do problems 3, 5, 7, 9, 
     </item>
     
     <item>
-      <title>CSS Fundamentals</title>
+      <title>CSS Cascade</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -89,7 +108,7 @@ When declarations conflict, the cascade considers three things to resolve the di
     </item>
     
     <item>
-      <title>CSS Fundamentals</title>
+      <title>CSS Specificity</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -99,7 +118,7 @@ Inline Styles If you use an HTML style attribute to apply styles, the declaratio
     </item>
     
     <item>
-      <title>CSS Fundamentals</title>
+      <title>CSS Terminologies</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -188,7 +207,7 @@ Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldqu
     </item>
     
     <item>
-      <title>CSS Fundamentals</title>
+      <title>CSS Origin</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -245,6 +264,16 @@ P(x)/D(x) = Q(x) + R(x)/D(x)
 &amp;ldquo;We need to import the &amp;lsquo;Jar&amp;rsquo;s that is required for Spring Applications to work.&amp;rdquo;
  Usually in Java, you&amp;rsquo;d take the JARs and add it to the CLASSPATH  We won&amp;rsquo;t do this. We&amp;rsquo;ll use Maven instead!   What is Maven? Maven: Build Independency Management Tool
 Lets you declare all the dependencies you want in a single file.</description>
+    </item>
+    
+    <item>
+      <title>CSS Inheritance</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/</guid>
+      <description>There’s one last way that an element can receive styles - inheritance. The cascade is frequently conflated with the concept on inheritance. Although the two topics are related, you should understand each individually.
+If an element has no cascaded value for a given property, it may inherit one from an ancestor element. It’s common to apply a font-family to the &amp;lt;body&amp;gt; element. All the ancestor elements within will then inherit this font; you don’t have to apply it explicitly to each element on the page.</description>
     </item>
     
     <item>

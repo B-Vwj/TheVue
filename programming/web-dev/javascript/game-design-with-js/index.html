@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.59.1" />
-    <meta name="description" content="Computer Science Notes">
+    <meta name="description" content="Javascript Game Design Documentation/Notes">
 <meta name="author" content="Brandon Vue">
 
     <link rel="icon" href="/TheVue/images/favicon.png" type="image/png">
 
-    <title>Computer Science Notes :: TheVue</title>
+    <title>Javascript Game Design Documentation :: TheVue</title>
 
     
     <link href="/TheVue/css/nucleus.css?1585857632" rel="stylesheet">
@@ -33,7 +33,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/TheVue/school-notes/computer-science/">
+  <body class="" data-url="/TheVue/programming/web-dev/javascript/game-design-with-js/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -76,7 +76,7 @@
   
     
     <li data-nav-id="/TheVue/programming/" title="Programming Notes" class="dd-item
-        
+        parent
         
         
         ">
@@ -243,7 +243,7 @@
   
     
     <li data-nav-id="/TheVue/programming/web-dev/" title="Web Development Notes" class="dd-item
-        
+        parent
         
         
         ">
@@ -541,7 +541,7 @@
   
     
     <li data-nav-id="/TheVue/programming/web-dev/javascript/" title="Javascript Documentation" class="dd-item
-        
+        parent
         
         
         ">
@@ -784,8 +784,8 @@
   
     
     <li data-nav-id="/TheVue/programming/web-dev/javascript/game-design-with-js/" title="Javascript Game Design Documentation" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/TheVue/programming/web-dev/javascript/game-design-with-js/">
@@ -835,7 +835,7 @@
   
     
     <li data-nav-id="/TheVue/school-notes/" title="School Notes" class="dd-item
-        parent
+        
         
         
         ">
@@ -928,8 +928,8 @@
   
     
     <li data-nav-id="/TheVue/school-notes/computer-science/" title="Computer Science Notes" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="/TheVue/school-notes/computer-science/">
@@ -1738,7 +1738,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/School-Notes/Computer%20Science/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/Programming/Web%20Dev/Javascript/Game%20Design%20with%20JS/_index.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -1769,7 +1769,19 @@
             
           
           
-            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/school-notes/'>School Notes</a> > Computer Science Notes
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/programming/'>Programming Notes</a> > <a href='/TheVue/programming/web-dev/'>Web Development Notes</a> > <a href='/TheVue/programming/web-dev/javascript/'>Javascript Documentation</a> > Javascript Game Design Documentation
+          
+         
+          
+         
           
          
           
@@ -1786,14 +1798,16 @@
 <ul>
 <li>
 <ul>
-<li><a href="#computer-science">Computer Science</a>
+<li>
 <ul>
-<li><a href="#terms">Terms</a>
-<ul>
-<li><a href="#file">File</a></li>
-<li><a href="#file-system">File System</a></li>
-<li><a href="#directory-dir">Directory (dir)</a></li>
-</ul></li>
+<li><a href="#what-is-a-canvas">What is a Canvas?</a></li>
+<li><a href="#how-do-we-draw-on-a-canvas">How do we Draw on a Canvas?</a></li>
+<li><a href="#how-do-we-add-movement">How do we add Movement?</a></li>
+<li><a href="#how-do-we-add-controls">How do we add Controls?</a></li>
+<li><a href="#how-do-we-detect-collisions">How do we detect Collisions?</a></li>
+<li><a href="#what-is-a-sprite">What is a Sprite?</a></li>
+<li><a href="#what-did-we-learn-in-the-js-game-section-lol">What did we Learn? (In the JS game section lol)</a></li>
+<li><a href="#in-summary">In Summary</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -1813,7 +1827,7 @@
           
             <h1>
               
-              Computer Science Notes
+              Javascript Game Design Documentation
             </h1>
           
 
@@ -1824,72 +1838,85 @@
 
 	
 
-<h2 id="computer-science">Computer Science</h2>
-
-<h3 id="terms">Terms</h3>
-
-<h4 id="file">File</h4>
-
-<p><strong><em>A computer file is a computer resource for recording data discretely in a computer storage device</em></strong>.<br/>
-Usually organized in a <strong><em>file system</em></strong>, Files can be edited and transferred through the internet on that particular computer system.</p>
-
-<p><strong>Comes in multiple types depending on its purpose:</strong>
-  - <strong><em>Picture</em></strong>
-  - <strong><em>Written Message</em></strong>
-  - <strong><em>Video</em></strong>
-  - <strong><em>Program</em></strong></p>
-
-<p><strong>And many more!</strong></p>
-
-<p>By using computer programs, a person can:</p>
+<h3 id="what-is-a-canvas">What is a Canvas?</h3>
 
 <ul>
-<li><strong><em>open</em></strong></li>
-<li><strong><em>read</em></strong></li>
-<li><strong><em>change</em></strong></li>
-<li><strong><em>save</em></strong></li>
-<li><strong><em>close</em></strong></li>
+<li>Platform we draw on</li>
+<li>Packaged in HTML <code>&lt;canvas&gt;</code> tags</li>
+<li>Add a width and height</li>
+<li>Access the canvas and canvas context inside <code>&lt;script&gt;</code> tag</li>
 </ul>
 
-<p>a computer file.</p>
-
-<p>Computer files may be:</p>
+<h3 id="how-do-we-draw-on-a-canvas">How do we Draw on a Canvas?</h3>
 
 <ul>
-<li><strong><em>reopened</em></strong></li>
-<li><strong><em>modified</em></strong></li>
-<li><strong><em>copied</em></strong></li>
+<li>Supply a drawing context and function</li>
+<li>Add a rectangle with specified dimensions</li>
+<li>Draw rectangle on Canvas context</li>
+<li>Call draw function from a step function</li>
 </ul>
 
-<p>an arbitrary number of times</p>
+<h3 id="how-do-we-add-movement">How do we add Movement?</h3>
 
-<hr />
+<ul>
+<li>Create update function</li>
+<li>Update positions of items in the game</li>
+<li>Call update function in step function</li>
+<li>Can update multiple items with an array and for loops</li>
+</ul>
 
-<h4 id="file-system">File System</h4>
+<h3 id="how-do-we-add-controls">How do we add Controls?</h3>
 
-<p><strong><em>Controls how data is stored and received</em></strong>.</p>
+<ul>
+<li>Add event listeners</li>
+<li>Listen for events such as mouse clicks or key presses</li>
+<li>Call functions to update position accordingly</li>
+<li>Call update functions</li>
+</ul>
 
-<p>Things are usually set up as&hellip;</p>
+<h3 id="how-do-we-detect-collisions">How do we detect Collisions?</h3>
 
-<p><code>User &lt;---&gt; Application &lt;---&gt; Operating System(OS) &lt;---&gt; Hardware</code></p>
+<ul>
+<li>Check ‘x’ and ‘y’ positions</li>
+<li>Determine if there’s overlap by comparison</li>
+<li>Do this for all objects</li>
+<li>End game or perform other collision logic</li>
+</ul>
 
-<p>In a <strong><em>hierarchical file system (that is, one in which files and directories are organized in a manner that resembles a tree)</em></strong>.</p>
+<h3 id="what-is-a-sprite">What is a Sprite?</h3>
 
-<p>A directory contained inside another directory is called a <strong><em>subdirectory</em></strong>.</p>
+<ul>
+<li>Entity in game with an image and properties such as a x and y position and width and height</li>
+<li>Can represent player, enemies, or even background and other objects</li>
+<li>Load in images</li>
+<li>Draw sprite images instead of rectangles</li>
+</ul>
 
-<p>The terms <strong><em>parent</em></strong> and <strong><em>child</em></strong> are often <strong><em>used to describe the relationship between a subdirectory and the directory in which it is cataloged, the latter being the parent</em></strong>.</p>
+<h3 id="what-did-we-learn-in-the-js-game-section-lol">What did we Learn? (In the JS game section lol)</h3>
 
-<p>The top-most directory in such a filesystem, which does not have a parent of its own, is called the <strong><em>root directory</em></strong>.</p>
+<ul>
+<li>Coding basics with JS syntax</li>
+<li>Game development basics with JS</li>
+<li>Two separate parts:
 
-<hr />
+<ul>
+<li>JS language basics</li>
+<li>Game development basics with the final game</li>
+</ul></li>
+</ul>
 
-<h4 id="directory-dir">Directory (dir)</h4>
+<h3 id="in-summary">In Summary</h3>
 
-<p>In computing, a <strong><em>directory is a file system cataloging structure which contains references to other computer files, and possibly other directories</em></strong>.</p>
-
-<p>On many computers, <em>directories are known as folders, or drawers</em>.</p>
-
-<hr />
+<p><code>
+- Game Development
+    - Canvas
+    - Drawing on a Canvas
+    - Adding movement to objects
+    - Updating multiple items
+    - Adding player controls
+    - Collision detection and objectives
+    - Sprites
+</code>`</p>
 
 
 
@@ -1930,8 +1957,6 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -1948,118 +1973,8 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
                 
                     
-                
-                
-
-                    
-                    
                         
-                    
-                    
-
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -2115,6 +2030,91 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
                     
             
         
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
                         
             
@@ -2180,25 +2180,6 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
         
                     
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
             
             
@@ -2215,53 +2196,27 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
             
         
                     
-                        
             
+        
+                    
             
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
+        
                     
                         
             
@@ -2295,8 +2250,39 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
         
                     
+                        
             
-        
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
                     
                         
             
@@ -2508,6 +2494,56 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
 
                     
                     
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                     
 
                     
@@ -2554,64 +2590,6 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -2627,11 +2605,19 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
         
                     
+            
+        
+                    
+            
+        
+                    
                         
             
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -2648,8 +2634,54 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
                 
                     
+                
+                
+
+                    
+                    
                         
+                    
+                    
+
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -3167,10 +3199,10 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
 	 
 	 
 		
-			<a class="nav nav-prev" href="/TheVue/school-notes/communications/fundamentals-of-public-speaking/" title="Fundamentals of Public Speaking"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/TheVue/programming/web-dev/javascript/es6-javascript/" title="Javascript **ES6/2015** Documentation"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/TheVue/school-notes/computer-science/data-strutures-and-algorithms/" title="Data Structure and Algorithms" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/TheVue/school-notes/" title="School Notes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

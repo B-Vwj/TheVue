@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.59.1" />
-    <meta name="description" content="Computer Science Notes">
+    <meta name="description" content="CSS Inheritance">
 <meta name="author" content="Brandon Vue">
 
     <link rel="icon" href="/TheVue/images/favicon.png" type="image/png">
 
-    <title>Computer Science Notes :: TheVue</title>
+    <title>CSS Inheritance :: TheVue</title>
 
     
     <link href="/TheVue/css/nucleus.css?1585857632" rel="stylesheet">
@@ -33,7 +33,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/TheVue/school-notes/computer-science/">
+  <body class="" data-url="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -76,7 +76,7 @@
   
     
     <li data-nav-id="/TheVue/programming/" title="Programming Notes" class="dd-item
-        
+        parent
         
         
         ">
@@ -243,7 +243,7 @@
   
     
     <li data-nav-id="/TheVue/programming/web-dev/" title="Web Development Notes" class="dd-item
-        
+        parent
         
         
         ">
@@ -298,7 +298,7 @@
   
     
     <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/" title="CSS" class="dd-item
-        
+        parent
         
         
         ">
@@ -327,7 +327,7 @@
   
     
     <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/" title="CSS in Depth" class="dd-item
-        
+        parent
         
         
         ">
@@ -448,7 +448,7 @@
  
   
     
-      <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/" title="CSS Inheritance" class="dd-item ">
+      <li data-nav-id="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/" title="CSS Inheritance" class="dd-item active">
         <a href="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/">
         Inheritance
         <i class="fas fa-check read-icon"></i>
@@ -835,7 +835,7 @@
   
     
     <li data-nav-id="/TheVue/school-notes/" title="School Notes" class="dd-item
-        parent
+        
         
         
         ">
@@ -928,8 +928,8 @@
   
     
     <li data-nav-id="/TheVue/school-notes/computer-science/" title="Computer Science Notes" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="/TheVue/school-notes/computer-science/">
@@ -1738,7 +1738,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/School-Notes/Computer%20Science/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/Programming/Web%20Dev/CSS/CSS%20In%20Depth/The%20Cascade/inheritance.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -1769,7 +1769,25 @@
             
           
           
-            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/school-notes/'>School Notes</a> > Computer Science Notes
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/programming/'>Programming Notes</a> > <a href='/TheVue/programming/web-dev/'>Web Development Notes</a> > <a href='/TheVue/programming/web-dev/css/css-in-depth/'>CSS</a> > <a href='/TheVue/programming/web-dev/css/css-in-depth/the-cascade/'>CSS in Depth</a> > CSS Inheritance
+          
+         
+          
+         
+          
+         
           
          
           
@@ -1786,13 +1804,18 @@
 <ul>
 <li>
 <ul>
-<li><a href="#computer-science">Computer Science</a>
+<li><a href="#special-values">Special Values</a>
 <ul>
-<li><a href="#terms">Terms</a>
+<li><a href="#using-the-inherit-keyword">Using the <em>inherit</em> keyword</a></li>
+<li><a href="#using-the-initial-keyword">Using the <em>initial</em> keyword</a></li>
+</ul></li>
+<li><a href="#shorthand-properties">Shorthand properties</a>
 <ul>
-<li><a href="#file">File</a></li>
-<li><a href="#file-system">File System</a></li>
-<li><a href="#directory-dir">Directory (dir)</a></li>
+<li><a href="#beware-shorthands-silently-overriding-other-styles">Beware shorthands silently overriding other styles</a></li>
+<li><a href="#understanding-the-order-of-shorthand-values">Understanding the order of shorthand values</a>
+<ul>
+<li><a href="#top-right-bottom-left">Top, Right, Bottom, Left</a></li>
+<li><a href="#horizontal-vertical">Horizontal, Vertical</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -1813,7 +1836,7 @@
           
             <h1>
               
-              Computer Science Notes
+              CSS Inheritance
             </h1>
           
 
@@ -1822,82 +1845,146 @@
 
 
 
-	
 
-<h2 id="computer-science">Computer Science</h2>
+<p>There’s one last way that an element can receive styles - <em>inheritance</em>. The cascade is frequently conflated with the concept on inheritance. Although the two topics are related, you should understand each individually.</p>
 
-<h3 id="terms">Terms</h3>
+<p>If an element has no cascaded value for a given property, it may inherit one from an ancestor element. It’s common to apply a <code>font-family</code> to the <code>&lt;body&gt;</code> element. All the ancestor elements within will then inherit this font; you don’t have to apply it explicitly to each element on the page.</p>
 
-<h4 id="file">File</h4>
+<p>Inheritance (order of props being passed down)
+= = = = = = = = = = = = = = = = = = = = &gt;</p>
 
-<p><strong><em>A computer file is a computer resource for recording data discretely in a computer storage device</em></strong>.<br/>
-Usually organized in a <strong><em>file system</em></strong>, Files can be edited and transferred through the internet on that particular computer system.</p>
+<pre><code>										       = = = &gt; &lt;li&gt;
+										      /
+							      = = = &gt; &lt;ul&gt; = = = &gt; &lt;li&gt;
+							     /			\
+				 = = = &gt; &lt;header&gt; 			 = = = &gt; &lt;li&gt;
+				/			     \
+&lt;html&gt; = = = &gt; &lt;body&gt; 			 = = = &gt; &lt;h1&gt;
+				\
+				  = = = &gt; &lt;main&gt;
+</code></pre>
 
-<p><strong>Comes in multiple types depending on its purpose:</strong>
-  - <strong><em>Picture</em></strong>
-  - <strong><em>Written Message</em></strong>
-  - <strong><em>Video</em></strong>
-  - <strong><em>Program</em></strong></p>
+<p>Not all properties are inherited, however. By default, only certain ones are. In general, these are the properties you’ll <em>want</em> to be inherited. They’re primarily properties pertaining to text:
+- color
+- font
+- Font-family
+- Font-size
+- Font-weight
+- Font-variation
+- Font-style
+- Line-height
+- Letter-spacing
+- text-align
+- text-indent
+- text-transform
+- white-space <strong>and</strong>
+- word-spacing</p>
 
-<p><strong>And many more!</strong></p>
+<p>A few others inherit as well, such as the:</p>
 
-<p>By using computer programs, a person can:</p>
+<p><em>list properties:</em>
+- List-style
+- List-style-type
+- List-style-position <strong>and</strong>
+- List-style-image</p>
+
+<p><em>table border properties:</em>
+- Border-collapse
+- Border-spacing</p>
+
+<h2 id="special-values">Special Values</h2>
+
+<p>There are two special values that you can apply to any property to help manipulate the cascade: <strong><em>inherit</em></strong> and <strong><em>initial</em></strong>. Let’s take a look at these.</p>
+
+<h3 id="using-the-inherit-keyword">Using the <em>inherit</em> keyword</h3>
+
+<p>Sometimes, you’ll want inheritance to take place when a cascaded value is preventing it. To do this, you can use the keyword inherit. You can override another value with this, and it’ll cause the element to inherit that value from its parents.</p>
+
+<p>For example:</p>
+
+<pre><code>/* Global link color for the page */
+a:link {
+	color: blue;
+}
+
+…
+
+/* Footer text color set to Gray */
+.footer {
+	color: #666;
+	background-color: #ccc;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Footer link color inherits font color from footer */
+.footer a {
+	color: inherit;
+	text-decoration: underline;
+}
+</code></pre>
+
+<p>The third ruleset here overrides the blue link color, giving the link in the footer a cascaded value of inherit. Thus it inherits the color from its parent, <code>&lt;footer&gt;</code>.</p>
+
+<h3 id="using-the-initial-keyword">Using the <em>initial</em> keyword</h3>
+
+<p>Sometimes you’ll find you have styles applied to an element that you want to undo. You can do this by specifying the keyword initial. Every CSS property has an initial, or default, value.</p>
+
+<p>The benefit of initial, is that you don’t have to think about it as much. You may be in the habit of using the value <strong>auto</strong> to do this sort of reset. In fact, you can use <code>width: auto</code> to achieve the same result. This is because the default value of <code>width</code> is <code>auto</code>.</p>
+
+<p>It’s important to note, however, that auto isn’t the default value for all properties. It’s not even valid for many properties; for example, <code>border-width: auto</code> and <code>padding: auto</code> are invalid and therefore have no effect. You could take the time to dig up the initial value for these, but it’s often easier to use <code>initial</code>.</p>
 
 <ul>
-<li><strong><em>open</em></strong></li>
-<li><strong><em>read</em></strong></li>
-<li><strong><em>change</em></strong></li>
-<li><strong><em>save</em></strong></li>
-<li><strong><em>close</em></strong></li>
+<li>Declaring <code>display: initial</code> is equivalent to <code>display: inline</code>. It won’t evaluate to <code>display: block</code> regardless of what type of element you apply it to. That’s because initial resets to the initial value for the property, not the element; inline is the default value for display property.</li>
 </ul>
 
-<p>a computer file.</p>
+<h2 id="shorthand-properties">Shorthand properties</h2>
 
-<p>Computer files may be:</p>
+<p><strong>Shorthand properties</strong> are properties that let you set the values of several other properties at one time. For example, <code>font</code> is a shorthand property that lets you set several font properties. This declaration specifies <code>font-style</code>, <code>font-weight</code>, <code>font-size</code>, <code>line-height</code>, and <code>font-family</code>.</p>
 
-<ul>
-<li><strong><em>reopened</em></strong></li>
-<li><strong><em>modified</em></strong></li>
-<li><strong><em>copied</em></strong></li>
-</ul>
+<p>For example:</p>
 
-<p>an arbitrary number of times</p>
+<pre><code>font: italic bold 18px/1.2 &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+</code></pre>
 
-<hr />
+<p>Similarly, 
+- <code>background</code> is a shorthand property for multiple background properties: <code>background-color</code>, <code>background-image</code>, <code>background-size</code>, <code>background-repeat</code>, <code>background-position</code>, <code>background-origin</code>, <code>background-chip</code>, and <code>background-attachment</code>.
+- <code>border</code> is a shorthand for <code>border-width</code>, <code>border-style</code>, and <code>border-color</code>, which are in turn shorthand properties as well.
+- <code>border-width</code> is shorthand for the top, right, bottom, and left border widths.</p>
 
-<h4 id="file-system">File System</h4>
+<p>Shorthand properties are useful for keeping your code succinct and clear, but a few quirks about them aren’t readily apparent.</p>
 
-<p><strong><em>Controls how data is stored and received</em></strong>.</p>
+<h3 id="beware-shorthands-silently-overriding-other-styles">Beware shorthands silently overriding other styles</h3>
 
-<p>Things are usually set up as&hellip;</p>
+<p>Most shorthand props let you omit certain values and only specify the bits you’re concerned with. It’s important to know, however, that doing this still sets the omitted values; they’ll be set implicitly to their initial value. This can silently override styles you specify elsewhere.</p>
 
-<p><code>User &lt;---&gt; Application &lt;---&gt; Operating System(OS) &lt;---&gt; Hardware</code></p>
+<h3 id="understanding-the-order-of-shorthand-values">Understanding the order of shorthand values</h3>
 
-<p>In a <strong><em>hierarchical file system (that is, one in which files and directories are organized in a manner that resembles a tree)</em></strong>.</p>
+<p>Shorthand properties try to be lenient when It comes to the order of the values you specify.</p>
 
-<p>A directory contained inside another directory is called a <strong><em>subdirectory</em></strong>.</p>
+<h4 id="top-right-bottom-left">Top, Right, Bottom, Left</h4>
 
-<p>The terms <strong><em>parent</em></strong> and <strong><em>child</em></strong> are often <strong><em>used to describe the relationship between a subdirectory and the directory in which it is cataloged, the latter being the parent</em></strong>.</p>
+<p>Shorthand property order particularly trips up devs when it comes to properties like <em>margin</em> and <em>padding</em>, or some of the border properties that specify values for each of the four sides of an element. For these props, the values are in clockwise order, beginning at the top (“It’s HIGH NOON”).</p>
 
-<p>The top-most directory in such a filesystem, which does not have a parent of its own, is called the <strong><em>root directory</em></strong>.</p>
+<p>A good mnemonic to remember this is <strong>TRouBLe</strong>.</p>
 
-<hr />
+<h4 id="horizontal-vertical">Horizontal, Vertical</h4>
 
-<h4 id="directory-dir">Directory (dir)</h4>
+<p>The TRouBLe mnemonic only applies to properties that apply individually to all four sides of the box. Other properties only support up to two values. These include props like <code>background-position</code>, <code>box-shadow</code>, and <code>text-shadow</code> (although these aren’t shorthand propers, strictly speaking).</p>
 
-<p>In computing, a <strong><em>directory is a file system cataloging structure which contains references to other computer files, and possibly other directories</em></strong>.</p>
+<p>For example:</p>
 
-<p>On many computers, <em>directories are known as folders, or drawers</em>.</p>
+<pre><code>background-position: 25% 75%
+</code></pre>
 
-<hr />
-
-
-
+<p>The first value specifies the horizontal right/left values, followed by the vertical top/bottom values. Think of it like coordinates on a graph. (X, Y).</p>
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -1930,8 +2017,6 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -1948,118 +2033,8 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
                 
                     
-                
-                
-
-                    
-                    
                         
-                    
-                    
-
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -2116,10 +2091,100 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
         
                     
+            
+        
+                    
+            
+        
+                    
                         
             
             
                 
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -2180,25 +2245,6 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
         
                     
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
             
             
@@ -2215,6 +2261,26 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
         
                     
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
             
         
                     
@@ -2223,50 +2289,8 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
                 
                     
-                
-                
-
-                    
-                    
                         
-                    
-                    
-
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -2295,8 +2319,35 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
         
                     
+                        
             
-        
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
                     
                         
             
@@ -2508,6 +2559,56 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
 
                     
                     
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                     
 
                     
@@ -2579,7 +2680,6 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
                 
                     
-                    
                 
                 
 
@@ -2594,9 +2694,6 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -2632,7 +2729,6 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
                 
                     
-                    
                 
                 
 
@@ -2647,9 +2743,6 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -3167,10 +3260,10 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
 	 
 	 
 		
-			<a class="nav nav-prev" href="/TheVue/school-notes/communications/fundamentals-of-public-speaking/" title="Fundamentals of Public Speaking"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/" title="CSS Origin"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/TheVue/school-notes/computer-science/data-strutures-and-algorithms/" title="Data Structure and Algorithms" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/TheVue/programming/web-dev/css/tips/" title="CSS Tips" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -3200,3 +3293,4 @@ Usually organized in a <strong><em>file system</em></strong>, Files can be edite
 
   </body>
 </html>
+

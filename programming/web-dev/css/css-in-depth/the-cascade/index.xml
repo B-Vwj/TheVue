@@ -11,7 +11,26 @@
     
     
     <item>
-      <title>CSS Fundamentals</title>
+      <title>Chapter 1</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/overview_one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/overview_one/</guid>
+      <description>Overview +++
+ The four parts that make up the cascade
+ The difference between the cascade and inheritance
+ How to control which styles apply to which elements
+ Common misunderstandings about shorthand declarations
++++
+Check the summary after reviewing the rest of chapter 1 tabs
+Summary +++
+ Keep selector specificity under control.
+ Don’t confuse cascade with inheritance.
+ Certain properties are inherited, including those for text, lists, and table borders.</description>
+    </item>
+    
+    <item>
+      <title>CSS Cascade</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/cascade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -21,7 +40,7 @@ When declarations conflict, the cascade considers three things to resolve the di
     </item>
     
     <item>
-      <title>CSS Fundamentals</title>
+      <title>CSS Specificity</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/specificity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -31,7 +50,7 @@ Inline Styles If you use an HTML style attribute to apply styles, the declaratio
     </item>
     
     <item>
-      <title>CSS Fundamentals</title>
+      <title>CSS Terminologies</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/terminologies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -42,12 +61,22 @@ A group of declarations inside curly braces is called a declaration block.</desc
     </item>
     
     <item>
-      <title>CSS Fundamentals</title>
+      <title>CSS Origin</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/</guid>
       <description>Understanding Stylesheet Origin The Stylesheets you add to your web page aren’t the only ones the browser applies. There are different types, or origins, of stylesheets. Yours are called authors stylesheets; There are also user agent styles, which are the browser’s default styles. - Use agent styles have lower priority, so your styles override them. - Some browsers let users define a user stylesheet. User stylesheets are rarely used and beyond your control, so I’ve left them out for simplicity.</description>
+    </item>
+    
+    <item>
+      <title>CSS Inheritance</title>
+      <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/</guid>
+      <description>There’s one last way that an element can receive styles - inheritance. The cascade is frequently conflated with the concept on inheritance. Although the two topics are related, you should understand each individually.
+If an element has no cascaded value for a given property, it may inherit one from an ancestor element. It’s common to apply a font-family to the &amp;lt;body&amp;gt; element. All the ancestor elements within will then inherit this font; you don’t have to apply it explicitly to each element on the page.</description>
     </item>
     
   </channel>
