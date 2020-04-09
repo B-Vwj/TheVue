@@ -56,7 +56,27 @@ loga(x / y) = loga(x) - loga(y)
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_and_log_equations/</guid>
-      <description> Notes: Terms </description>
+      <description>Notes: Theorems/Formulas Remember the Compound Interest Formula? (It&amp;rsquo;s alright if you didn&amp;rsquo;t, for now&amp;hellip;)
+Here it is:
+A = P(1 + (r/n))nt
+Where&amp;hellip;
+P =&amp;gt; Principal
+r =&amp;gt; annual interest rate (as a decimal)
+n =&amp;gt; number of compoundings in a year
+t =&amp;gt; time in years
+A =&amp;gt; accumulated value
+Now, there&amp;rsquo;s a formula for Continuously Compounded Interest.
+This means roughly that interest is compunded infinitely many times per year.</description>
+    </item>
+    
+    <item>
+      <title>Modeling with Exponential and Logarithmic Functions</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/modeling_with_exp_and_log_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/modeling_with_exp_and_log_functions/</guid>
+      <description>Notes: This section was mostly just example problems. I will probably not add those problems onto this site here but rather instead, have them onto my Random Math equation generator. If I ever get that created, then I will post the link here.
+If you&amp;rsquo;re seeing this message, I have been lazy and probably forgot about the project. Shoot me a message about it if you want on my Github or LinkedIn.</description>
     </item>
     
   </channel>

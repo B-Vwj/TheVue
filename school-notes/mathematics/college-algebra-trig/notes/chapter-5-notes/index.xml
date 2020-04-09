@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 5 Notes on TheVue</title>
+    <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/</link>
+    <description>Recent content in Chapter 5 Notes on TheVue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Unit Circle</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/unit_circle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/unit_circle/</guid>
+      <description>Notes: Unit Circle: is basically a circle that has a center point located at point (0,0) and has a radius of 1.
+What is the circumference of the unit circle?
+Circumference of a circle of radius &amp;lsquo;r&amp;rsquo; is 2πr.
+Terms trigon: Greek for &amp;lsquo;triangle&amp;rsquo;.
+metry (metric?): Greek for &amp;lsquo;measure&amp;rsquo;.
+terminal point: The terminal point on the unit circle determined by the real number t.
+To further explain terminal point, imagine that you&amp;rsquo;re standing on top of point (1,0) on the unit circle (the far right of the circle).</description>
+    </item>
+    
+    <item>
+      <title>Trig Functions of Real Numbers</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/trig_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/trig_functions/</guid>
+      <description>Notes: Let t be any real number and let P(x,y) be the terminal point on the unit circle defined by t. Then we define six functions of t:
+ sin(t) = y; &amp;ldquo;sine of t.&amp;rdquo;
+ cost(t) = x; &amp;ldquo;cosine of t.&amp;rdquo;
+ tan(t) = (y/x); &amp;ldquo;tangent of t.&amp;rdquo;
+ cot(t) = (x/y); &amp;ldquo;cotangent of t.&amp;rdquo;
+ sec(t) = (1/x); &amp;ldquo;secant of t.&amp;rdquo;
+ csc(t) = (1/y); &amp;ldquo;cosecant of t.</description>
+    </item>
+    
+    <item>
+      <title>Trigonometric Graphs</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/trig_graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/trig_graphs/</guid>
+      <description>Notes: If you look at the Unit Circle, you&amp;rsquo;ll see that it starts at point (0,0), and then it ends after a period of 2π.
+So a usual graph would begin at (0,0) and end at 2π. However, not all graphs do this.
+A trigonometric graph would usually look like this:
+f(x) = (a)sin(bx - c)
+So&amp;hellip; that&amp;rsquo;s nice to know and all, but what things do we look for in a trigonometric graph?</description>
+    </item>
+    
+    <item>
+      <title>More Trigonometric Graphs</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/more_trig_graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/more_trig_graphs/</guid>
+      <description>Notes: There actually isn&amp;rsquo;t anymore notes, just practice problems.
+Again, refer to my math problem generator if you need practice. Unless I either forgot or was just too lazy to make it.</description>
+    </item>
+    
+  </channel>
+</rss>

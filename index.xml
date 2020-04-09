@@ -75,6 +75,21 @@ Economics: &amp;ldquo;How society manages its scarce resources&amp;rdquo; - (Alf
     </item>
     
     <item>
+      <title>Angles</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/angles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/angles/</guid>
+      <description>Notes: An angle in &amp;lsquo;standard&amp;rsquo; position has its initial side on the positive x-axis and vertex at the origin point, (0,0).
+Converting between degrees and radians: If the units of an angle is not specified, they&amp;rsquo;re assumed to be in radians.
+ π radians = 180˚
+ (π / 2) = 90˚
+ (π / 3) = 60˚
+ (π / 4) = 45˚
+ (π / 6) = 30˚</description>
+    </item>
+    
+    <item>
       <title>Chapter 3 Math HW</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/homework/chapter3_hw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -207,6 +222,21 @@ Zeros of a polynomial: P(x) are numbers c, such that P&amp;copy; = 0 - &amp;ldqu
     </item>
     
     <item>
+      <title>The Unit Circle</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/unit_circle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/unit_circle/</guid>
+      <description>Notes: Unit Circle: is basically a circle that has a center point located at point (0,0) and has a radius of 1.
+What is the circumference of the unit circle?
+Circumference of a circle of radius &amp;lsquo;r&amp;rsquo; is 2πr.
+Terms trigon: Greek for &amp;lsquo;triangle&amp;rsquo;.
+metry (metric?): Greek for &amp;lsquo;measure&amp;rsquo;.
+terminal point: The terminal point on the unit circle determined by the real number t.
+To further explain terminal point, imagine that you&amp;rsquo;re standing on top of point (1,0) on the unit circle (the far right of the circle).</description>
+    </item>
+    
+    <item>
       <title>CSS Origin</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/stylesheet_origin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -267,6 +297,36 @@ Lets you declare all the dependencies you want in a single file.</description>
     </item>
     
     <item>
+      <title>Trig Functions of Real Numbers</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/trig_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/trig_functions/</guid>
+      <description>Notes: Let t be any real number and let P(x,y) be the terminal point on the unit circle defined by t. Then we define six functions of t:
+ sin(t) = y; &amp;ldquo;sine of t.&amp;rdquo;
+ cost(t) = x; &amp;ldquo;cosine of t.&amp;rdquo;
+ tan(t) = (y/x); &amp;ldquo;tangent of t.&amp;rdquo;
+ cot(t) = (x/y); &amp;ldquo;cotangent of t.&amp;rdquo;
+ sec(t) = (1/x); &amp;ldquo;secant of t.&amp;rdquo;
+ csc(t) = (1/y); &amp;ldquo;cosecant of t.</description>
+    </item>
+    
+    <item>
+      <title>Trig Functions of right triangles</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/trig_funcs_in_right_triangles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/trig_funcs_in_right_triangles/</guid>
+      <description>Notes: Remember SOHCAHTOA? - Sine with Opposite length OVER the Hypotenuse
+ Cosine with Adjacent length OVER the Hypotenuse  and finally,
+ Tangent with Opposite length OVER the Adjacent length  Don&amp;rsquo;t forget their inverses as well…
+ Cosecant with Hypotenuse OVER the Opposite length
+ Secant with Hypotenuse OVER the Adjacent length
+  and finally,
+ Cotangent with Adjacent length OVER the Opposite length  Well… the Pythagorean Theorem applies!</description>
+    </item>
+    
+    <item>
       <title>CSS Inheritance</title>
       <link>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -274,6 +334,25 @@ Lets you declare all the dependencies you want in a single file.</description>
       <guid>https://b-vwj.github.io/TheVue/programming/web-dev/css/css-in-depth/the-cascade/inheritance/</guid>
       <description>There’s one last way that an element can receive styles - inheritance. The cascade is frequently conflated with the concept on inheritance. Although the two topics are related, you should understand each individually.
 If an element has no cascaded value for a given property, it may inherit one from an ancestor element. It’s common to apply a font-family to the &amp;lt;body&amp;gt; element. All the ancestor elements within will then inherit this font; you don’t have to apply it explicitly to each element on the page.</description>
+    </item>
+    
+    <item>
+      <title>Identities</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/identities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/identities/</guid>
+      <description>Notes: &amp;ldquo;Semantic memory&amp;rdquo; = facts
+&amp;ldquo;Episodic memory&amp;rdquo; = stories, visualization
+&amp;ldquo;Complimentary Sine&amp;rdquo; = Cosine
+All of our Identities still work!
+Standard Identities:  tan(ø) = sin(ø) / cos(ø)
+ tan(ø) = 1 / cot(ø)
+ cot(ø) = cos(ø) / sin(ø)
+ sec(ø) = 1 / cos(ø)
+ csc(ø) = 1 / sin(ø)
+  Cofunction Identities:  cos(ø) = sin((π / 2) - ø)
+ cot(ø) = tan((π / 2) - ø)</description>
     </item>
     
     <item>
@@ -307,6 +386,19 @@ loga(x / y) = loga(x) - loga(y)
     </item>
     
     <item>
+      <title>Trigonometric Graphs</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/trig_graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/trig_graphs/</guid>
+      <description>Notes: If you look at the Unit Circle, you&amp;rsquo;ll see that it starts at point (0,0), and then it ends after a period of 2π.
+So a usual graph would begin at (0,0) and end at 2π. However, not all graphs do this.
+A trigonometric graph would usually look like this:
+f(x) = (a)sin(bx - c)
+So&amp;hellip; that&amp;rsquo;s nice to know and all, but what things do we look for in a trigonometric graph?</description>
+    </item>
+    
+    <item>
       <title>Zeros of Polynomials</title>
       <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-3-notes/real_zeros_of_polynomials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -337,7 +429,17 @@ Answer:  The graph wouldn&amp;rsquo;t cross the x-axis, since intercepts are Rea
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/exponential_and_log_equations/</guid>
-      <description> Notes: Terms </description>
+      <description>Notes: Theorems/Formulas Remember the Compound Interest Formula? (It&amp;rsquo;s alright if you didn&amp;rsquo;t, for now&amp;hellip;)
+Here it is:
+A = P(1 + (r/n))nt
+Where&amp;hellip;
+P =&amp;gt; Principal
+r =&amp;gt; annual interest rate (as a decimal)
+n =&amp;gt; number of compoundings in a year
+t =&amp;gt; time in years
+A =&amp;gt; accumulated value
+Now, there&amp;rsquo;s a formula for Continuously Compounded Interest.
+This means roughly that interest is compunded infinitely many times per year.</description>
     </item>
     
     <item>
@@ -347,6 +449,16 @@ Answer:  The graph wouldn&amp;rsquo;t cross the x-axis, since intercepts are Rea
       
       <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/closures/</guid>
       <description> Closures in JS  An inner function has always access to the variables and parameters of its outer functions, even after the outer function has returned.  </description>
+    </item>
+    
+    <item>
+      <title>More Trigonometric Graphs</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/more_trig_graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-5-notes/more_trig_graphs/</guid>
+      <description>Notes: There actually isn&amp;rsquo;t anymore notes, just practice problems.
+Again, refer to my math problem generator if you need practice. Unless I either forgot or was just too lazy to make it.</description>
     </item>
     
     <item>
@@ -368,6 +480,16 @@ Let f(x) be a polynomial with real number coefficients { If &#39;a+bi&#39; is a 
       
       <guid>https://b-vwj.github.io/TheVue/programming/web-dev/javascript/es5-javascript/call_apply_and_bind_methods/</guid>
       <description>Bind, Call, and Apply in JS Call:  Set the ‘this’ variable to another object. Borrow a method from another object.  Apply:  The apply() method is used to write methods, which can be used on different objects. It is different from the function call() because it takes arguments as an array.  Bind:  Similar to call. Lets us set the ‘this’ variable explicitly. “Bind doesn’t immediately call the function, but generates a copy of the function so that we can store it somewhere” Bind method returns a function.</description>
+    </item>
+    
+    <item>
+      <title>Modeling with Exponential and Logarithmic Functions</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/modeling_with_exp_and_log_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-4-notes/modeling_with_exp_and_log_functions/</guid>
+      <description>Notes: This section was mostly just example problems. I will probably not add those problems onto this site here but rather instead, have them onto my Random Math equation generator. If I ever get that created, then I will post the link here.
+If you&amp;rsquo;re seeing this message, I have been lazy and probably forgot about the project. Shoot me a message about it if you want on my Github or LinkedIn.</description>
     </item>
     
     <item>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 6 Notes on TheVue</title>
+    <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/</link>
+    <description>Recent content in Chapter 6 Notes on TheVue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angles</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/angles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/angles/</guid>
+      <description>Notes: An angle in &amp;lsquo;standard&amp;rsquo; position has its initial side on the positive x-axis and vertex at the origin point, (0,0).
+Converting between degrees and radians: If the units of an angle is not specified, they&amp;rsquo;re assumed to be in radians.
+ π radians = 180˚
+ (π / 2) = 90˚
+ (π / 3) = 60˚
+ (π / 4) = 45˚
+ (π / 6) = 30˚</description>
+    </item>
+    
+    <item>
+      <title>Trig Functions of right triangles</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/trig_funcs_in_right_triangles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/trig_funcs_in_right_triangles/</guid>
+      <description>Notes: Remember SOHCAHTOA? - Sine with Opposite length OVER the Hypotenuse
+ Cosine with Adjacent length OVER the Hypotenuse  and finally,
+ Tangent with Opposite length OVER the Adjacent length  Don&amp;rsquo;t forget their inverses as well…
+ Cosecant with Hypotenuse OVER the Opposite length
+ Secant with Hypotenuse OVER the Adjacent length
+  and finally,
+ Cotangent with Adjacent length OVER the Opposite length  Well… the Pythagorean Theorem applies!</description>
+    </item>
+    
+    <item>
+      <title>Identities</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/identities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/identities/</guid>
+      <description>Notes: &amp;ldquo;Semantic memory&amp;rdquo; = facts
+&amp;ldquo;Episodic memory&amp;rdquo; = stories, visualization
+&amp;ldquo;Complimentary Sine&amp;rdquo; = Cosine
+All of our Identities still work!
+Standard Identities:  tan(ø) = sin(ø) / cos(ø)
+ tan(ø) = 1 / cot(ø)
+ cot(ø) = cos(ø) / sin(ø)
+ sec(ø) = 1 / cos(ø)
+ csc(ø) = 1 / sin(ø)
+  Cofunction Identities:  cos(ø) = sin((π / 2) - ø)
+ cot(ø) = tan((π / 2) - ø)</description>
+    </item>
+    
+  </channel>
+</rss>
