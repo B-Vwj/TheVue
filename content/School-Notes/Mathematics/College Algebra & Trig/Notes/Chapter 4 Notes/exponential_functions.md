@@ -38,3 +38,15 @@ If a < 1; the function is decaying.
 ***Compound Interest Formula:***
 
 ***A = P(1 + (r/n))<sup>nt</sup>***
+
+Where...
+
+***P => Principal.***
+
+***r => annual interest rate (as a decimal).***
+
+***n => number of compoundings in a year.***
+
+***t => time in years.***
+
+***A => accumulated value.***
