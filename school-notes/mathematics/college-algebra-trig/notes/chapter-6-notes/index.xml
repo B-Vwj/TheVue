@@ -59,5 +59,30 @@ Standard Identities:  tan(ø) = sin(ø) / cos(ø)
  cot(ø) = tan((π / 2) - ø)</description>
     </item>
     
+    <item>
+      <title>Law of Sines</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/law_of_sines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/law_of_sines/</guid>
+      <description>The Law of Sines Draw a triangle; Then, divide the triangle into two right triangles. That line is h (stands for height).
+We often label the angles in capital letters such as: A, B, and C.
+The sides that is opposite of the angle is often labeled with the same letter but lower cased, such as: a, b, c.
+Formula sin&amp;copy; = h/a =&amp;gt; (a)*sin&amp;copy; = h;
+sin(A) = h/c =&amp;gt; &amp;copy;*sin(A) = h;</description>
+    </item>
+    
+    <item>
+      <title>Law of Cosines</title>
+      <link>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/law_of_cosine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-vwj.github.io/TheVue/school-notes/mathematics/college-algebra-trig/notes/chapter-6-notes/law_of_cosine/</guid>
+      <description>The Law of Cosines The Law of Cosine can be used to solve triangles in 2 circumstances: - Given all 3 sides (SSS) - Given 2 sides and the included angle (SAS)
+Example Given this triangle: [ Insert Screenshot image of triangle ]
+With the triangle above, the coordinates of B are the hardest to find. We can find it with the formulas:
+cos(A) = x/c = &amp;copy;cos(A) = x;</description>
+    </item>
+    
   </channel>
 </rss>
