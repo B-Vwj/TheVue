@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.59.1" />
-    <meta name="description" content="Welcome to TheVue">
+    <meta name="description" content="Notes for Basic SQL stuff">
 <meta name="author" content="Brandon Vue">
 
     <link rel="icon" href="/TheVue/images/favicon.png" type="image/png">
 
-    <title>Welcome to TheVue :: TheVue</title>
+    <title>SQL Notes :: TheVue</title>
 
     
     <link href="/TheVue/css/nucleus.css?1593707633" rel="stylesheet">
@@ -33,7 +33,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/TheVue/">
+  <body class="" data-url="/TheVue/school-notes/computer-science/sql/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -861,7 +861,7 @@
   
     
     <li data-nav-id="/TheVue/school-notes/" title="School Notes" class="dd-item
-        
+        parent
         
         
         ">
@@ -954,7 +954,7 @@
   
     
     <li data-nav-id="/TheVue/school-notes/computer-science/" title="Computer Science Notes" class="dd-item
-        
+        parent
         
         
         ">
@@ -1009,8 +1009,8 @@
   
     
     <li data-nav-id="/TheVue/school-notes/computer-science/sql/" title="SQL Notes" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/TheVue/school-notes/computer-science/sql/">
@@ -2157,28 +2157,426 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/School-Notes/Computer%20Science/SQL/_index.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/TheVue/'>Welcome to TheVue</a> > <a href='/TheVue/school-notes/'>School Notes</a> > <a href='/TheVue/school-notes/computer-science/'>Computer Science Notes</a> > SQL Notes
+          
+         
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li><a href="#sql-basics">SQL Basics</a>
+<ul>
+<li><a href="#relational-databases"><strong><em>Relational Databases</em></strong>:</a></li>
+<li><a href="#notation"><strong><em>Notation</em></strong>:</a></li>
+<li><a href="#sql"><strong><em>SQL</em></strong>:</a>
+<ul>
+<li><a href="#queries">Queries</a></li>
+<li><a href="#coding">Coding</a></li>
+<li><a href="#filtering-data">Filtering Data</a>
+<ul>
+<li><a href="#conditional-operators">Conditional Operators</a></li>
+<li><a href="#mathematical-operators">Mathematical Operators</a></li>
+</ul></li>
+<li><a href="#multiple-tables">Multiple Tables</a>
+<ul>
+<li><a href="#joining-results-from-multiple-tables">Joining results from multiple tables</a></li>
+<li><a href="#omitting-table-names">Omitting table names</a></li>
+<li><a href="#renaming-columns">Renaming Columns</a></li>
+<li><a href="#filtering-the-joined-tables">Filtering the joined tables</a></li>
+<li><a href="#strings">Strings</a></li>
+<li><a href="#quick-fun-example">Quick fun example</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
         
         <div id="body-inner">
           
+            <h1>
+              
+              SQL Notes
+            </h1>
+          
 
         
 
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
-
- 
 
 
-<h2 id="thevue">TheVue</h2>
-
-<p>Welcome to TheVue!</p>
 	
-  
+
+<h1 id="sql-basics">SQL Basics</h1>
+
+<p>What is a database exactly?
+To put it simply, it’s a computer program which stores various data. There are quite a few database vendors, e.g., Oracle, MySQL, PostgreSQL, SQL Server, and many others.</p>
+
+<p>There are various types of databases. In this course, we’re going to focus on relational databases - they’re a very frequent choice in the contemporary IT world.</p>
+
+<h2 id="relational-databases"><strong><em>Relational Databases</em></strong>:</h2>
+
+<p>Every relational database stores information in <strong>tables</strong>. You can have many tables in one database and each of your tables will hold data which refers to similar objects. Each tables has a <strong>name</strong>. So you can find out what kind of information is stored there.</p>
+
+<p>For example, the database of your university would include a table named <code>student</code>, with all data regarding students, another table <code>subject</code> with information on the subjects at your university, etc.</p>
+
+<p>Tables in databases look <em>exactly</em> the way you would imagine a normal table - they have <strong>columns</strong> and <strong>rows</strong>.</p>
+
+<p>Columns in every table have their <strong>names</strong> and they identify the kind of information is stored in them.</p>
+
+<p>Each row stores information about one object. In the <code>student</code> table below, you can see that the column names reflect the kind of data contained in them, so in the column <code>name</code> there are names of students, in the columns <code>graduation_year</code> there is the year of their graduation, etc.</p>
+
+<p>Each <strong>row</strong> corresponds to exactly <em>one</em> student.</p>
+
+<p>[ Insert table here ]</p>
+
+<h2 id="notation"><strong><em>Notation</em></strong>:</h2>
+
+<p>Lets use the notation:</p>
+
+<p><code>pet (id, name, owner_id)</code></p>
+
+<p>The above means that we have a table named <code>pet</code> which has the following columns: <code>id</code>, <code>name</code>, and <code>owner_id</code>. This information will be enough for you to work with the tables in our exercise.</p>
+
+<h2 id="sql"><strong><em>SQL</em></strong>:</h2>
+
+<p>So, how do we get in touch with our database? We use the so-called <strong>Structured Query Language</strong>. Of course, no one uses the full name, we just call it SQL for short.</p>
+
+<p>All relational databases understand SQL, but each of them has a slightly different <em>dialect</em>, so to speak.</p>
+
+<p>Thanks to SQL, you’ll be able to make queries in each database environment.</p>
+
+<h3 id="queries">Queries</h3>
+
+<p>Just as the name suggests, queries are questions that we ask to find out some information about the data stored in the database.</p>
+
+<p>Databases can do amazing things - they don’t only return the data you ask for, they can actually do advanced calculations on the tables. You’ll see for yourself!</p>
+
+<h3 id="coding">Coding</h3>
+
+<pre><code>
+SELECT *
+FROM user;
+
+</code></pre>
+
+<p><code>SELECT</code> tells your databases that you want to select data. <code>FROM user</code> tells the database to select data from the table <code>user</code>.</p>
+
+<p>Finally, the asterisk <code>(*)</code> tells the database you want to see <strong>all columns</strong> in this table.</p>
+
+<p>Remember that it’s good practice to always end your SQL command with a semicolon <code>(;)</code>. A semicolon is like a period at the end of the sentence. It tells the database that you’re done with your command.</p>
+
+<h3 id="filtering-data">Filtering Data</h3>
+
+<h4 id="conditional-operators">Conditional Operators</h4>
+
+<ul>
+<li><p><code>OR</code></p></li>
+
+<li><p><code>AND</code></p></li>
+
+<li><p><code>BETWEEN</code></p>
+
+<ul>
+<li>Always check how <code>BETWEEN</code> works</li>
+</ul></li>
+
+<li><p><code>NOT</code></p></li>
+</ul>
+
+<p>We can also include even more conditions by using <strong>parentheses</strong>, according to our needs.</p>
+
+<ul>
+<li><p><code>LIKE</code></p>
+
+<ul>
+<li>Allows for the use of the percentage sign <code>%</code></li>
+</ul></li>
+
+<li><p><code>NOT NULL</code></p>
+
+<ul>
+<li>There can be <code>NULL</code> values, I.e. fields with unknown, missing values.</li>
+<li>To check whether a column has a value, we use a special instruction <code>IS NOT NULL</code>.</li>
+</ul></li>
+</ul>
+
+<p>If you’re looking for null values…</p>
+
+<ul>
+<li><code>IS NULL</code></li>
+</ul>
+
+<p>Remember, <code>NULL</code> is a special value. It means that some piece of information is <strong>missing</strong> or <strong>unknown</strong>.</p>
+
+<p><em>Also, <code>NULL = NULL</code> is NEVER true in SQL!</em></p>
+
+<h4 id="mathematical-operators">Mathematical Operators</h4>
+
+<p>You can:</p>
+
+<ul>
+<li><p>Add (<code>+</code>)</p></li>
+
+<li><p>Subtract (<code>-</code>)</p></li>
+
+<li><p>Multiply (<code>*</code>)</p></li>
+
+<li><p>Divide (<code>/</code>)</p></li>
+</ul>
+
+<h3 id="multiple-tables">Multiple Tables</h3>
+
+<p>In big databases we always use <strong>multiple tables</strong>. This also means that we often want to get data from more than one table at a time.</p>
+
+<h4 id="joining-results-from-multiple-tables">Joining results from multiple tables</h4>
+
+<p>Say we have two tables:</p>
+
+<pre><code>
+Director (id, name, birth_year);
+
+Movie (id, title, production_year, director_id)
+
+</code></pre>
+
+<p>If we want data from both tables, we can simply do:</p>
+
+<pre><code>
+SELECT *
+FROM movie, director;
+
+</code></pre>
+
+<p>How would the data be presented? There’s 8 movies, and 5 directors. Will it be 5? 8? Or will it get added together to be 13?</p>
+
+<p>Thing is, none of those numbers are correct, we actually get <strong>40 rows</strong>. The numbers multiply, <em>8 * 5 = 40</em>. This is because SQL takes every single movie and joins it with every possible director.</p>
+
+<p>In other words, SQL doesn’t know what to do with the results from the two tables, so it gave you every possible connection.</p>
+
+<p>How can we change it? Take a look:</p>
+
+<pre><code>
+/* Select everything from the database(s) */
+SELECT *
+
+/* Data from certain one or more databases */
+FROM movie, director
+
+/* Filter our responses, in this case, we merge related data so it doesn’t get bloated */
+WHERE movie.director_id = director.id;
+
+</code></pre>
+
+<p>If you have multiple tables, you should refer to specific columns by giving the name of the table and the column, separated by a (<code>.</code>). As a result, the column <code>director_id</code> from the table <code>movie</code> becomes <code>director.id</code> and so on.</p>
+
+<p>Now the results look so much better! Joining multiple tables is such a popular and frequent operation that SQL provides a special word for it: <code>JOIN</code>. There are many versions of <code>JOIN</code> out there. For the time being, we’ll focus on the basic one.</p>
+
+<p>SQL must also know how to join the tables, so there is another keyword <code>ON</code>. After it, we set our condition: join only those rows where the <code>id</code> in <code>director</code> is the same as <code>director_id</code> in <code>movie</code>.</p>
+
+<p>The code:</p>
+
+<pre><code>
+SELECT *
+FROM movie /*  We only select one table called movie, because we’ll JOIN it onto the director table */
+JOIN director ON movie.director_id = director.id;
+
+</code></pre>
+
+<p>Rather than selecting everything now, lets say we select only a few columns. Here’s the code:</p>
+
+<pre><code>
+/* “Filtering” out our results.  */
+SELECT director.name,
+	movie.title
+
+/* Selecting only one table so that we can choose another to JOIN with */
+FROM movie
+
+/* We are still joining the tables together */
+JOIN director
+ON movie.director_id = director.id;
+
+</code></pre>
+
+<h4 id="omitting-table-names">Omitting table names</h4>
+
+<p>All together, these are good practices, but you only <em>need</em> to do it when there’s <em>a chance of confusing them</em>.</p>
+
+<p>If there are two different columns with the same name in two different tables, then you have to specify the tables. If the name of the column is unique, though, you may omit the table name.</p>
+
+<p>Like in this code:</p>
+
+<pre><code>
+SELECT name,
+	title
+FROM movie
+JOIN director
+ON director.id = movie.director_id;
+
+</code></pre>
+
+<h4 id="renaming-columns">Renaming Columns</h4>
+
+<p>Look at this code:</p>
+
+<pre><code>
+SELECT
+	director.id AS director_id,
+	movie.id AS movie_id
+FROM movie
+JOIN director
+	ON director.id = movie.director_id;
+
+</code></pre>
+
+<p>After the column name, e.g. <code>director.id</code>, we use the new keyword <code>AS</code> and we put the new name after it (<code>director_id</code>). We can repeat this process with every column.</p>
+
+<p>The new name is just an <strong>alias</strong>, which means it’s temporary and doesn’t change the actual column name in the database. It only influences the way the column is shown in the result of the specific query.</p>
+
+<p>This technique is often used when there are a few columns with the same name coming from different tables. Normally, when SQL displays columns in the result, there is no information about the table that a specific column in part of.</p>
+
+<h4 id="filtering-the-joined-tables">Filtering the joined tables</h4>
+
+<p>Code:</p>
+
+<pre><code>
+SELECT *
+FROM movie
+JOIN director
+ON movie.director_id = director.id
+WHERE movie.production_year &gt; 2000;
+
+</code></pre>
+
+<p>You can see, we just used <code>WHERE</code> again. Pretty simple. But, since we’re dealing with multiple tables, we specify it with <code>movie.production_year</code>. Although, it is quite unique to the movie table, that we can just omit the table name <code>movie</code>.</p>
+
+<h4 id="strings">Strings</h4>
+
+<p>Example Code:</p>
+
+<pre><code>
+SELECT *
+FROM movie
+JOIN director
+   ON director.id = movie.director_id
+WHERE director.name = ’Steven Spielberg’;
+
+</code></pre>
+
+<p>Filtering with Strings.</p>
+
+<h4 id="quick-fun-example">Quick fun example</h4>
+
+<p>Here’s a fun problem you can try doing. Try it out, then look at the answers. Or… well don’t.</p>
+
+<p>Select the <code>title</code> and <code>production_year</code> columns from the <code>movie</code> table, and the <code>name</code> and <code>birth_year</code> columns from the <code>director</code> table in such a way that a movie is shown together with its director.
+Show the column <code>birth_year</code> as <code>born_in</code>. Select only those movies which were filmed when their director was younger than 40 (i.e. the difference between <code>production_year</code> and <code>birth_year</code> must be less than 40).</p>
+
+<p>Your final code should look something like this:  ```</p>
+
+<p>SELECT title,
+          production_year,
+          name,
+          birth_year AS born_in
+FROM movie
+JOIN director
+   ON director.id = movie.director_id
+WHERE (production_year - birth_year) &lt; 40;</p>
+
+<pre><code>
+#### Another fun example
+
+Select the `id`, `title`, and `production_year` columns from the `movie` table, and the `name` and `birth_year` columns from the `director` table in such a way that a movie is shown together with its director. Show the column `birth_year` as `born_in` and the column `production_year` as `produced_in`. Select only those movies:
+- _Whose title contains a letter 'a' and which were filmed after 2000_, or
+- _Whose director was born between 1945 and 1995_.
+
+Your final code should look something like this:
+
+</code></pre>
+
+<p>SELECT title,
+       production_year AS produced_in,
+       movie.id,
+       name,
+       birth_year AS born_in
+FROM movie
+JOIN director
+  ON director.id = movie.director_id
+WHERE (title LIKE &lsquo;%a%&rsquo; AND production_year &gt; 2000)
+  OR (birth_year BETWEEN 1945 AND 1995);</p>
+
+<p>```</p>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
         
         </div> 
         
@@ -2875,20 +3273,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -2905,24 +3289,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -2950,10 +3318,49 @@
             
         
                     
+            
+        
+                    
                         
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -2973,6 +3380,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -3743,8 +4153,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/TheVue/school-notes/computer-science/data-strutures-and-algorithms/" title="Data Structure and Algorithms"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/TheVue/programming/" title="Programming Notes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/TheVue/school-notes/english/" title="English Notes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -3774,4 +4186,3 @@
 
   </body>
 </html>
-
